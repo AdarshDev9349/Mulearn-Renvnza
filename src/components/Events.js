@@ -1,0 +1,84 @@
+import React, { useState, useEffect } from 'react';
+import SmallEvents from './Events(s)'; // Import the new component
+
+const Events = () => {
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 1400);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Initial check
+    handleResize();
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  if (isSmallScreen) {
+    return <SmallEvents />;
+  }
+
+  return (
+    <section className="all-events">
+      <h1><span>//</span>Events</h1>
+      <div className="main">
+        <div className="event-card">
+          <div className="event-card-content">
+            <h2>Upcoming Event</h2>
+            <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
+            <button className="button">Learn More</button>
+          </div>
+        </div>
+        <div className="event-card">
+          <div className="event-card-content">
+            <h2>Upcoming Event</h2>
+            <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
+            <button className="button">Learn More</button>
+          </div>
+        </div>
+        <div className="event-card">
+          <div className="event-card-content">
+            <h2>Upcoming Event</h2>
+            <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
+            <button className="button">Learn More</button>
+          </div>
+        </div>
+        <div className="event-card highlight">
+          <div className="event-card-content">
+            <h2>Upcoming Event</h2>
+            <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
+            <button className="button">Learn More</button>
+          </div>
+        </div>
+        <div className="event-card">
+          <div className="event-card-content">
+            <h2>Upcoming Event</h2>
+            <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
+            <button className="button">Learn More</button>
+          </div>
+        </div>
+        <div className="event-card">
+          <div className="event-card-content">
+            <h2>Upcoming Event</h2>
+            <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
+            <button className="button">Learn More</button>
+          </div>
+        </div>
+        <div className="event-card">
+          <div className="event-card-content">
+            <h2>Upcoming Event</h2>
+            <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
+            <button className="button">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Events;

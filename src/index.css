@@ -1,13 +1,911 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Smooch+Sans:wght@100..900&display=swap');
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body {
+  overflow-x: hidden;
+  
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  background-color: #fafaf9;
+  background-image: url("./components/img/bg.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin: 0 auto;
+  width: 90%;
+  color: #ff4655;
+  border: 5px solid #ff4655;
+}
+
+img {
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 5rem;
+  background-color: #0f1923;
+}
+
+/* HAMBURGER STYLE */
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all ease-in-out 0.3s;
+  background-color: #ff4655;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 610px;
+}
+
+
+
+.nav-link {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #F64755;
+  transition: all ease-in-out 0.2s;
+}
+
+.nav-link:hover {
+  letter-spacing: 2px;
+}
+
+.nav-logo img {
+  width: 11rem;
+
+  transition: all ease-in-out 0.2s;
+}
+
+.nav-logo img:hover {
+  transform: scale(1.2);
+}
+.no-space + .no-space {
+  margin-left: -46px; 
+}
+/* HEADER */
+header {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden !important;
+  margin: 0 0 100px 0;
+  cursor: url('./components/img/crosshair-removebg-preview.png'),auto;
+}
+
+
+
+
+
+
+#myVideo {
+  z-index: -2;
+
+}
+
+
+
+.head{
+  position: absolute;
+  display: flex;
+
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 24%;
+  
+}
+.head h1{
+
+font-family: 'smooch sans';
+font-size: 142px;
+color: #ECE8E1;
+}
+.head p{
+ margin-top: 10px;
+ font-size: 19px;
+ font-family: 'oxanium';
+ color: #ffffff;
+
+
+}
+
+.renmu-logo {
+  
+  transition: all 0.1s;
+  z-index: 5;
+
+}
+
+.floating {
+  width: 200px;
+  height: auto;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.eventbtn{
+  position: absolute;
+  top: 400px;
+  border: none;
+  padding: 1rem 3rem;
+  transition: all ease-in-out 0.2s;
+  font-weight: 700;
+  font-size: 4vh;
+  color: #fff;
+  background: linear-gradient(to right, #ff4655 50%, #ce323f 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  
+}
+.eventbtn:hover {
+  letter-spacing: 5px;
+  background-position: left;
+  box-shadow: 10px 10px 0px 0px #0f1923;
+  cursor: pointer;
+}
+
+.eventbtn:active {
+  letter-spacing: 5px;
+  background-position: left;
+  box-shadow: 10px 10px 0px 0px #0f1923;
+  cursor: pointer;
+}
+
+
+
+/* OTHER AGENTS */
+.all-events {
+  height: fit-content;
+  width: 100%;
+ 
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.all-events h1 {
+  font-weight: 900;
+  font-size: 10rem;
+  margin-bottom: 100px;
+}
+
+.all-events h1 span {
+  font-weight: 300;
+}
+
+.main {
+  
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: center;
+  justify-items: center;
+}
+
+.event-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1;
+  background-size: contain;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: transform 0.3s, filter 0.3s;
+  position: relative;
+  height: 400px;
+  width: 220px;
+  overflow: hidden;
+  border: 2px solid #333;
+  filter: grayscale(0.8);
+  background-color: #0f1923;
+}
+
+.event-card-content {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.event-card h2, .event-card p, .event-card .button {
+  margin: 10px 0;
+}
+
+.event-card h2 {
+  color: #ff4655;
+}
+
+.event-card p {
+  color: #fff;
+}
+
+.event-card .button {
+  border: none;
+  padding: 1rem 3rem;
+  transition: all ease-in-out 0.2s;
+  font-weight: 700;
+  font-size: 2vh;
+  color: #fff;
+  background: linear-gradient(to right, #ff4655 50%, #ce323f 50%);
+  background-size: 200% 100%;
+  background-position: right;
+
+}
+
+.event-card .button:hover {
+  background-color: #e03535;
+  transform: scale(1.05);
+ 
+  background-position: left;
+  box-shadow: 10px 10px 0px 0px #0f1923;
+  cursor: pointer;
+}
+
+.event-card:hover {
+  
+  filter: grayscale(0);
+  transform: scale(1.1);
+  border: 2px solid #ff4655;
+  
+  
+}
+
+.highlight {
+  transform: scale(1.1);
+  filter: grayscale(0);
+  border: 2px solid #ff4655;
+}
+.highlight:hover{
+  transform: scale(1.2);
+}
+
+.main .event-card:nth-child(1) {
+  left: 35px;
+  bottom: 25px;
+  z-index: 1;
+  transform: translateX() scale(0.9);
+  background-image: url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8a627ec10b57f4f2/5eb7cdc16509f3370a5a93b7/V_AGENTS_587x900_sage.png');
+}
+
+.main .event-card:nth-child(2) {
+  left: 20px;
+  bottom: 15px;
+  z-index: 2;
+  transform: translateX() scale(0.95);
+  background-image: url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt302fcb2b9628c376/5f7fa6ff8db9ea0f149ece0a/V_AGENTS_587x900_ALL_Skye.png');
+}
+
+.main .event-card:nth-child(3) {
+  left: 5px;
+
+  z-index: 3;
+  transform: translateX() scale(1);
+  background-image: url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf11234f4775729b7/5ebf2c275e73766852c8d5d4/V_AGENTS_587x900_ALL_Sova_2.png');
+}
+
+.main .event-card:nth-child(4) {
+  left: 0;
+  top: 25px;
+  z-index: 4;
+  background-image: url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc825c6589eda7717/5eb7cdc6ee88132a6f6cfc25/V_AGENTS_587x900_Viper.png');
+}
+
+.main .event-card:nth-child(5) {
+  right: 5px;
+  z-index: 3;
+  transform: translateX() scale(1);
+  background-image: url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd4080f8efb365751/5ff5660bb47cdf7fc7d6c3dc/V_AGENTS_587x900_yoru.png');
+}
+
+.main .event-card:nth-child(6) {
+  right: 20px;
+  bottom: 15px;
+  z-index: 2;
+  transform: translateX() scale(0.95);
+  background-image: url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png');
+}
+
+.main .event-card:nth-child(7) {
+  right: 35px;
+  bottom: 25px;
+  z-index: 1;
+  transform: translateX() scale(0.9);
+  background-image: url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt53405c26141beff8/5f21fda671ec397ef9bf0894/V_AGENTS_587x900_KillJoy_.png');
+}
+
+/* PLAY NOW */
+.more-events {
+  justify-content: center;
+  height: 20vh;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.more-events button {
+  border: none;
+  padding: 1rem 3rem;
+  transition: all ease-in-out 0.2s;
+  font-weight: 700;
+  font-size: 3vh;
+  color: #fff;
+  background: linear-gradient(to right, #ff4655 50%, #ce323f 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  box-shadow: 5px 5px 0px 0px #0f1923;
+  
+}
+
+.more-events button:hover {
+  letter-spacing: 5px;
+  background-position: left;
+  box-shadow: 10px 10px 0px 0px #0f1923;
+  cursor: pointer;
+}
+
+.more-events button:active {
+  letter-spacing: 5px;
+  background-position: left;
+  box-shadow: 10px 10px 0px 0px #0f1923;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f1923;
+  width: 100%;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#0000002d 90%, #ff283a48), url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltbded518020183769/5eb26f5389bac8148a8006cc/agent-background-generic.JPG");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+footer img {
+  width: 40vh;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+footer .p2 {
+  letter-spacing: 0;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+footer .social-media-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+footer a {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 4rem;
+  transition: all 0.2s;
+}
+
+footer a:hover {
+  opacity: 1;
+}
+
+footer a img {
+  filter: grayscale(1);
+  width: 100px;
+}
+
+
+
+@media all and (max-width:1400px) {
+  
+  .swiper_container {
+    height: 52rem;
+    padding: 2rem 0;
+    position: relative;
+  }
+  .swiper-slide-active .event-card{
+    transform: scale(1.1);
+    filter: grayscale(0);
+    border: 2px solid #ff4655;
+  }
+  .event-card:hover {
+    filter: none;
+    transform: none;
+    border: none;
+  }
+  .swiper-slide {
+    flex-shrink: 0;
+    width: 0;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    display: block;
+}
+  .swiper_container {
+    height: 47rem;
+  }
+  .swiper-slide {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+  .swiper-slide img {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+
+
+.swiper-slide img {
+  width: 37rem;
+  height: 42rem;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
+.slider-controler {
+  position: relative;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-wrapper{
+  margin-top: 30px;
+}
+.main{
+
+  display: flex;
+  justify-content: center;
+}
+}
+@media all and (max-width:521px){
+   
+  .navbar{
+    display: flex;
+    justify-content: end;
+    
+  }
+    .nav-menu {
+      position: fixed;
+      left: 0;
+      top: -100vh;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #ff4655;
+      width: 100%;
+      height: 100vh;
+      padding: 50px 0;
+      text-align: center;
+      transition: 0.3s;
+      z-index: 10;
+    }
+    
+    .nav-link {
+      color: #0f1923;
+      font-weight: 500;
+      font-size: 3rem;
+    }
+    
+    .nav-menu.active {
+      top: 0;
+      z-index: 10;
+    }
+    
+    .nav-item {
+      margin: 2.5rem 0;
+    }
+    
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      z-index: 100;
+    }
+    
+    .hamburger.active {
+      position: fixed;
+      right: 8vh;
+    }
+    
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .bar.active {
+      background-color: #0f1923;
+    }
+    .navbar{
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 25px;
+    }
+  
+    .head h1{
+     
+      font-size: 80px;
+    }
+    .head p{
+      font-size: 15px;
+    }
+    header{
+      height: 600px;
+      overflow: hidden;
+      margin: 0 0 50px 0;
+    }
+    .eventbtn{
+      top: 410px;
+      font-size: 20px;
+    }
+    .head{
+
+      top: 20%;
+    }
+  .more-events{
+    margin-top: 0;
+    
+  }
+  .more-events button{
+    font-size: 15px;
+  }
+  .more-events button:hover{
+    letter-spacing: 1px;
+  }
+  .all-events{
+    margin-bottom: 0;
+  }
+ .all-events h1{
+  font-size: 5rem;
+  margin-bottom: 10px;
+ }
+ .swiper-wrapper{
+  margin-top: 60px;
+}
+}
+@media (min-width:522px) and (max-width:650px){
+  .more-events button{
+    font-size: 15px;
+  }
+  .more-events button:hover{
+    letter-spacing: 1px;
+  }
+.navbar{
+  display: flex;
+  justify-content: end;
+  
+}
+  .nav-menu {
+    position: fixed;
+    left: 0;
+    top: -100vh;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ff4655;
+    width: 100%;
+    height: 100vh;
+    padding: 50px 0;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 10;
+  }
+  
+  .nav-link {
+    color: #0f1923;
+    font-weight: 500;
+    font-size: 3rem;
+  }
+  
+  .nav-menu.active {
+    top: 0;
+    z-index: 10;
+  }
+  
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+  
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .hamburger.active {
+    position: fixed;
+    right: 8vh;
+  }
+  
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  .bar.active {
+    background-color: #0f1923;
+  }
+  .navbar{
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+  }
+
+  .head h1{
+    margin-top: 20px;
+    font-size: 70px;
+  }
+  .head p{
+    font-size: 15px;
+  }
+  header{
+    height: 600px;
+  }
+  .eventbtn{
+    top: 330px;
+  }  .more-events{
+    margin-top: 0;
+  }
+  .all-events{
+    margin-bottom: 20px;
+  }
+ .all-events h1{
+  font-size: 7rem;
+  margin-bottom: 10px;
+ }
+ .swiper-wrapper{
+  margin-top: 60px;
+}
+
+
+}
+
+
+
+@media (min-width: 650px) and (max-width: 767px){
+
+  header{
+    height: 600px;
+  }
+  .head h1{
+    font-size: 80px;
+  }
+  .navbar{
+    padding: 0;
+  }
+  .eventbtn{
+    top: 330px;
+  }
+  .more-events{
+    margin-top: 0;
+  }
+ .all-events{
+  margin-bottom: 0;
+ }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    height: 600px; 
+    margin: 0 0 70px 0; 
+    overflow: hidden;
+    
+  }
+  .eventbtn {
+    top: 350px;
+    font-size: large;}
+    .swiper-wrapper{
+      margin-top: 60px;
+    }
+    .navbar{
+      padding: 0;
+    }
+    .head h1{
+      font-size: 100px;
+    }
+    .more-events{
+      margin-top: 0;
+    }
+    .all-events{
+      margin-bottom: 10px;
+    }
+}
+
+/* Desktops and Larger Screens */
+@media (min-width: 1025px) and (max-width:1150px) {
+  header {
+    height: 800px; 
+    margin: 0 0 100px 0;
+    overflow: hidden;
+  }
+  .head h1{
+    font-size: 120px;
+  }
+}
+
+/* CountdownTimer.css */
+
+/* Main container for the countdown timer */
+/* Main container for the countdown timer */
+/* Main container for the countdown timer */
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #ffffff; /* Text color (white) */
+  background-color: #1f2833; /* Valorant theme background color */
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  animation: pulse 1s infinite alternate; /* Cool pulsating effect */
+}
+
+/* Timer display */
+.countdown-timer {
+  display: flex;
+  align-items: center;
+}
+
+/* Timer parts (days, hours, minutes, seconds) */
+.timer-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+/* Timer values */
+.timer-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff4655; /* Valorant red color for numbers */
+}
+
+/* Timer labels (Days, Hours, Minutes, Seconds) */
+.timer-label {
+  font-size: 12px;
+}
+
+/* Separator between timer parts */
+.timer-separator {
+  font-size: 24px;
+  margin: 0 5px;
+}
+
+/* Expired notice (when time is up) */
+.expired-notice {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #ff4655; /* Valorant red color */
+}
+
+/* Cool pulsating effect animation */
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+
+.event-detail{
+
+  position: absolute;
+  top: 10%;
+  background-color:white;
+  width:'-webkit-fill-available';
+  margin:30px;
+  height:80vh;
+  display: grid;
+  grid-template-columns: 1.3fr 2fr;
+
+}
+.event-detail img{
+  background-color:#1f2833;
+  border: none;
+   
+
+  height: 100%;
+}
+.event-detail .event-info{
+  background-color: #F64755;
+  text-align: center;
+ 
+}
+
+.event-info h1{
+  font-family: 'smooch sans';
+font-size: 52px;
+color: #ECE8E1;
+
 }
