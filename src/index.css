@@ -115,9 +115,15 @@ header {
   width: 100%;
   overflow-x: hidden !important;
   margin: 0 0 100px 0;
-  cursor: url('./components/img/crosshair-removebg-preview.png'),auto;
+  
 }
-
+.backgroundwebp{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(./components/video/agent-background-generic-ezgif.com-optiwebp.webp);
+  z-index: -2;
+}
 
 
 
@@ -125,7 +131,7 @@ header {
 
 #myVideo {
   z-index: -2;
-
+  
 }
 
 

@@ -1,14 +1,14 @@
 import React from 'react';
 import CountdownTimer  from './timer';
 import { Link } from 'react-scroll';
-import video from './video/agent-background-generic.mp4'
+
 
 const Header = () => {
   return (
    <header>
-      <video autoPlay muted loop id="myVideo">
-        <source src={video} type="video/mp4" />
-      </video>
+    <div className='backgroundwebp'>
+     
+    </div>
      <div className='head'>
      <h1>Forge Your Tech Destiny</h1>
         <p>Embark on the ultimate quest to Power up and conquer the future of technology!</p>

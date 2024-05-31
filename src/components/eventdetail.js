@@ -1,7 +1,6 @@
 // src/components/EventDetail.js
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import video from './video/agent-background-generic.mp4'
 import image from './img/pavithra 15.png'
 const eventDetails = {
   1: {
@@ -30,9 +29,7 @@ const EventDetail = () => {
        <li className="nav-item"><a href="#" className="nav-link">Renvnza</a></li>
      </ul>
    </nav>
-    <video autoPlay muted loop id="myVideo">
-      <source src={video} type="video/mp4" />
-     </video>
+
     <div className="event-detail" style={{backgroundColor:'white',width:'-webkit-fill-available',margin:'30px',height:"80vh"}}>
       <img src={image}></img>
     <div className='event-info'>
