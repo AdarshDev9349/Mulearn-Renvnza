@@ -45,8 +45,13 @@ hr {
 img {
   overflow-x: hidden;
 }
-
-/* NAVBAR */
+.loading-container{
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/* NAVBAR */
 
 .navbar {
   display: flex;
@@ -76,6 +81,7 @@ img {
   justify-content: space-between;
   align-items: center;
   width: 610px;
+  font-family: 'oxanium';
 }
 
 
@@ -541,12 +547,14 @@ footer p {
   font-size: 2rem;
   color: #fff;
   letter-spacing: 1px;
+  font-family: 'oxanium';
 }
 
 footer .p2 {
   letter-spacing: 0;
   font-weight: 300;
   font-size: 1.5rem;
+  font-family: 'oxanium';
 }
 
 
@@ -668,6 +676,7 @@ footer .p2 {
     .hamburger.active {
       position: fixed;
       right: 8vh;
+      
     }
     
     .hamburger.active .bar:nth-child(2) {
