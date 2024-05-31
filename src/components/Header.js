@@ -5,7 +5,7 @@ import video from './video/agent-background-generic.mp4'
 
 const Header = () => {
   return (
-    <div className='detail'>
+   <header>
       <video autoPlay muted loop id="myVideo">
         <source src={video} type="video/mp4" />
       </video>
@@ -13,16 +13,32 @@ const Header = () => {
      <h1>Forge Your Tech Destiny</h1>
         <p>Embark on the ultimate quest to Power up and conquer the future of technology!</p>
         <div className="countdown">
-          <p>Time until blastoff🚀</p>
+          <p style={{fontSize:'20px',fontWeight:'bold'}}>Time until blastoff🚀</p>
           <br></br>
           <CountdownTimer/>
         </div>
+       <div className='btndiv'>
+       <button className='eventbtn second'>      
+        <span class="btn__inner">
+        <span class="btn__slide"></span>
+        <span class="btn__content">Sponsor us</span>
+      </span>
+        
+        </button>
         <Link style={{display:'contents'}} to="all-events" smooth={true} duration={200}>
-        <button className='eventbtn'>EVENTS</button>
+        <button className='eventbtn'>      
+        <span class="btn__inner">
+        <span class="btn__slide"></span>
+        <span class="btn__content">Events</span>
+      </span>
+        
+        </button>
         </Link>
+        
+        </div> 
      </div>
-    </div>
-    
+   
+  </header>  
   );
 };
 
