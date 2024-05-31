@@ -26,8 +26,8 @@ const Header = () => {
         
         </button>
         <Link style={{display:'contents'}} to="all-events" smooth={true} duration={200}>
-        <button className='eventbtn'>      
-        <span class="btn__inner">
+        <button className='eventbtn btn--light'>      
+        <span class="btn__inner" style={{padding:'16px 43px'}}>
         <span class="btn__slide"></span>
         <span class="btn__content">Events</span>
       </span>

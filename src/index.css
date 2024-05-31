@@ -203,7 +203,7 @@ color: #ECE8E1;
   font-weight: bold;
   font-size: 14px;
   transition: all .15s ease;
-  display: inline-block;
+  
   font-family: 'oxanium';
 }
 
@@ -251,7 +251,7 @@ color: #ECE8E1;
 .btn__inner {
   position: relative;
   display: block;
-  padding: 16px 32px;
+  padding: 16px 30px;
   background-color: var(--button-background-color);
   overflow: hidden;
   box-shadow: inset 0px 0px 0px 1px var(--button-inner-border-color);
@@ -304,13 +304,7 @@ color: #ECE8E1;
   background-color: var(--button-bits-color-hover);
 }
 
-.eventbtn--light {
-  --button-background-color: var(--background-color);
-  --button-text-color: var(--highlight-color);
-  --button-inner-border-color: var(--highlight-color);
-  --button-text-color-hover: #ece8e1;
-  --button-bits-color-hover: #ece8e1;
-}
+
 .btndiv{
    display: flex;
    gap: 30px;
@@ -525,7 +519,7 @@ footer {
   flex-direction: column;
   background-color: #0f1923;
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(#0000002d 90%, #ff283a48), url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltbded518020183769/5eb26f5389bac8148a8006cc/agent-background-generic.JPG");
@@ -534,9 +528,12 @@ footer {
   background-attachment: fixed;
   text-align: center;
 }
-
-footer img {
-  width: 40vh;
+footer div{
+  display: flex;
+  align-items: center;
+}
+footer .nav-logo {
+ 
   padding: 20px;
 }
 
@@ -552,30 +549,9 @@ footer .p2 {
   font-size: 1.5rem;
 }
 
-footer .social-media-container {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px;
-}
 
-footer a {
-  color: #fff;
-  opacity: 0.5;
-  font-size: 4rem;
-  transition: all 0.2s;
-}
 
-footer a:hover {
-  opacity: 1;
-}
 
-footer a img {
-  filter: grayscale(1);
-  width: 100px;
-}
 
 
 
@@ -737,6 +713,10 @@ footer a img {
 
       top: 18%;
       gap: 10px;
+    }
+    .btndiv{
+     
+      gap: 15px;
     }
   .more-events{
     margin-top: 0;
