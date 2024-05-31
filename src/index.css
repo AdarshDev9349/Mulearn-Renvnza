@@ -735,7 +735,8 @@ footer a img {
     
     .head{
 
-      top: 20%;
+      top: 18%;
+      gap: 10px;
     }
   .more-events{
     margin-top: 0;
