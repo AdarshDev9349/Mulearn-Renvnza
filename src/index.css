@@ -118,7 +118,7 @@ header {
   
 }
 .backgroundwebp{
-  position: absolute;
+
   width: 100%;
   height: 100%;
   background-image: url(./components/video/agent-background-generic-ezgif.com-optiwebp.webp);
@@ -645,27 +645,31 @@ footer .p2 {
   }
     .nav-menu {
       position: fixed;
-      left: 0;
-      top: -100vh;
+      left: -100%;
+      top: 0;
       flex-direction: column;
       justify-content: center;
-      background-color: #ff4655;
-      width: 100%;
+      background-color: #0f1923;
+  
+      width: 200px;
       height: 100vh;
       padding: 50px 0;
       text-align: center;
       transition: 0.3s;
       z-index: 10;
+      
+    
     }
     
     .nav-link {
-      color: #0f1923;
+      color: #ECE8E1;
+
       font-weight: 500;
       font-size: 3rem;
     }
     
     .nav-menu.active {
-      top: 0;
+      left: 0;
       z-index: 10;
     }
     
@@ -680,7 +684,7 @@ footer .p2 {
     }
     
     .hamburger.active {
-      position: fixed;
+   
       right: 8vh;
       
     }
@@ -698,7 +702,7 @@ footer .p2 {
     }
     
     .bar.active {
-      background-color: #0f1923;
+      background-color: #e03535;
     }
     .navbar{
       padding: 0;
