@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from './img/Group 1 (4).svg';
+import logo from './img/Renvnza.svg';
 import logo2 from './img/mulearn-campus-logo.svg';
 
 const Navbarham = () => {
@@ -13,15 +13,15 @@ const Navbarham = () => {
 
   return (
     <nav className="navbar">
-      <a href="/" className="nav-logo no-space"><img src={logo} alt="Logo" /></a>
-      <a href="/" className="nav-logo no-space mulearn"><img src={logo2} alt="Logo" /></a>
+      <a href="https://www.renvnza.in/" className="nav-logo no-space"><img src={logo} alt="Logo" /></a>
+      <a href="https://mulearn-ucek.netlify.app/" className="nav-logo no-space mulearn"><img src={logo2} alt="Logo" /></a>
       <ul className={`nav-menu ${menuActive ? 'active' : ''}`}>
 
         {/* Moved Home, Events, Contact, and Renvnza into hamburger menu */}
         <li className="nav-item"><a href="#" className="nav-link">Home</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Events</a></li>
+        <li className="nav-item"><a href="https://eventsatucek.vercel.app/" className="nav-link">More Events</a></li>
         <li className="nav-item"><a href="#" className="nav-link">Contact</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Renvnza</a></li>
+        <li className="nav-item"><a href="https://www.renvnza.in/" className="nav-link">Renvnza</a></li>
       </ul>
       {/* Main navigation menu */}
    

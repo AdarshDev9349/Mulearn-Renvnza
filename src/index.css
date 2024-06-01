@@ -498,7 +498,7 @@ color: #ECE8E1;
 
 .more-events button {
   border: none;
-  padding: 1rem 3rem;
+  padding: 16px 32px;
   transition: all ease-in-out 0.2s;
   font-weight: 700;
   font-size: 3vh;
@@ -539,6 +539,9 @@ footer {
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
+  font-family: 'oxanium';
+  color: #fff;
+
 }
 footer div{
   display: flex;
@@ -546,26 +549,37 @@ footer div{
 }
 footer .nav-logo {
  
-  padding: 20px;
+  padding: 0 20px 0 20px;
 }
 
 footer p {
   font-size: 2rem;
-  color: #fff;
   letter-spacing: 1px;
-  font-family: 'oxanium';
+ 
 }
 
 footer .p2 {
   letter-spacing: 0;
   font-weight: 300;
   font-size: 1.5rem;
-  font-family: 'oxanium';
+ 
 }
 
+.Social-icon ul{
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  
+}
 
+.Social-icon img{
+  width: 33px;
+  transition: all ease-in-out 0.2s;
+}
+.Social-icon img:hover{
+    transform: scale(1.2);
 
-
+}
 
 
 
@@ -650,8 +664,8 @@ footer .p2 {
       flex-direction: column;
       justify-content: center;
       background-color: #0f1923;
-  
-      width: 200px;
+      background-image: url(./components/video/5818973-hd_1920_1080_24fps-ezgif.com-video-to-webp-converter.webp);
+      width: 260px;
       height: 100vh;
       padding: 50px 0;
       text-align: center;

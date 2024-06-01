@@ -5,7 +5,7 @@ const MoreEvents = () => {
   return (
     
     <section className="more-events" id="more-events">
-      <button>More Events</button>
+     <a href='https://eventsatucek.vercel.app/'> <button>MORE EVENTS</button></a>
     </section>
   );
 };
