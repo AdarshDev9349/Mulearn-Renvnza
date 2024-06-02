@@ -23,7 +23,7 @@ const EventDetail = () => {
   return (
     
      <header className='details-head'>
-    <nav className="navbar" style={{padding:'40px'}}>
+    <nav className="navbar">
      
      <ul className='nav-menu'>
        <li className="nav-item"><a href="#" className="nav-link">Home</a></li>

@@ -1080,6 +1080,7 @@ margin-top: 20px;
 
 .details-head .navbar{
   background-color: inherit;
+  padding: 40px;
  
 }
 .details-head a{
@@ -1132,9 +1133,12 @@ margin-top: 20px;
     margin: 0;
   }
  .event-detail .event-info{
-    height: 65vh;
+    height: 60vh;
     border-top-right-radius: 0;
     border-bottom-left-radius: inherit;
     border-bottom-right-radius: inherit;
+  }
+  .details-head .navbar{
+    padding: 10px;
   }
 }
