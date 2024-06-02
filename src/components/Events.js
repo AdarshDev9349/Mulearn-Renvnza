@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SmallEvents from './Events(s)'; // Import the new component
+import { Link } from 'react-router-dom';
 
 const Events = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -52,7 +53,7 @@ const Events = () => {
           <div className="event-card-content">
             <h2>Upcoming Event</h2>
             <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
-            <button className="button">Learn More</button>
+            <Link to={'/event/1'}><button className="button">Learn More</button></Link>
           </div>
         </div>
         <div className="event-card">

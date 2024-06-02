@@ -770,6 +770,9 @@ footer .p2 {
  .swiper-wrapper{
   margin-top: 60px;
 }
+
+
+
 }
 @media (min-width:522px) and (max-width:650px){
   .more-events button{
@@ -1006,33 +1009,112 @@ footer .p2 {
 
 
 .event-detail{
-
-  position: absolute;
+  
+position: absolute;
   top: 10%;
-  background-color:white;
-  width:'-webkit-fill-available';
+  background-color:rgb(40, 40, 40);
   margin:30px;
-  height:80vh;
-  display: grid;
-  grid-template-columns: 1.3fr 2fr;
+  height:75vh;
+  display: flex;
+  width: 75vw;
+  
 
 }
 .event-detail img{
   background-color:#1f2833;
-  border: none;
+  border: #ce323f 4px solid;
+  object-fit: cover;
    
-
-  height: 100%;
+  width: 850px;
 }
 .event-detail .event-info{
   background-color: #F64755;
   text-align: center;
- 
+  width: 100%;
+  background-image: url(./components/img/bg.png);
+  
 }
 
 .event-info h1{
   font-family: 'smooch sans';
-font-size: 52px;
-color: #ECE8E1;
+font-size: 72px;
+color:#1f2833;
 
+margin-top: 20px;
+
+}
+
+.event-info p{
+  font-family: 'oxanium';
+  font-size: 18px;
+  margin: 38px;
+  text-align:justify;
+  font-weight: bold;
+  color:#1f2833;
+  
+}
+.event-info ul{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-left: 38px;
+  font-family: 'oxanium';
+  color:#1f2833;
+  font-weight: 600;
+  font-size: 20px;
+
+  
+}
+.details-head{
+  background:#0f1923;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  height:100vh;
+  margin:'0';
+}
+.event-info .eventbtn{
+
+  top: 20px;
+}
+@media all and (max-width:750px){
+
+
+  .event-detail{
+    display: block;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  .event-detail img{
+    width:100%;
+  }
+
+  .event-info h1{
+    margin-top: 0;
+    font-size: 44px;
+  }
+  .event-info p{
+     font-size: 13px;
+     margin: 18px;
+     font-weight: bolder
+
+  }
+  .event-info ul{
+    font-size: 16px;
+    margin-left: 18px;
+
+  }
+  .event-info .eventbtn{
+    font-size: inherit;
+
+    top: 15px;
+  }
+  .details-head{
+    height: 100%;
+    margin: 0;
+  }
+ .event-detail .event-info{
+    height: 65vh;
+  }
 }
