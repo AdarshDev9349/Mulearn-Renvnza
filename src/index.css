@@ -1100,6 +1100,7 @@ margin-top: 20px;
     height: auto;
     position: relative;
     border: 20px;
+    margin: 0 30px 30px 30px;
   }
   .event-detail img{
     width:100%;
