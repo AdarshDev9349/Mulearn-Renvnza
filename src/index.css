@@ -1100,12 +1100,12 @@ margin-top: 20px;
     height: auto;
     position: relative;
     border: 20px;
-    margin: 0 30px 30px 30px;
+    margin: 0;
   }
   .event-detail img{
     width:100%;
-    border-top-left-radius: inherit;
-    border-top-right-radius:inherit ;
+    border-top-left-radius: 0;
+    border-top-right-radius:0 ;
     border-bottom-left-radius: 0;
   }
 
@@ -1136,10 +1136,11 @@ margin-top: 20px;
  .event-detail .event-info{
     height: 60vh;
     border-top-right-radius: 0;
-    border-bottom-left-radius: inherit;
-    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
   .details-head .navbar{
-    padding: 10px;
+    padding: 0;
+    position: absolute;
   }
 }
