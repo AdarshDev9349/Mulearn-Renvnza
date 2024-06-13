@@ -42,7 +42,7 @@ const SmallEvents = () => {
               <div className="event-card-content">
                 <h2>Upcoming Event</h2>
                 <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
-                <button className="button">Learn More</button>
+                <Link to={'/event/7'}><button className="button">Learn More</button></Link>
               </div>
             </div>
           </SwiperSlide>
@@ -54,7 +54,7 @@ const SmallEvents = () => {
               <div className="event-card-content">
                 <h2>Upcoming Event</h2>
                 <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
-                <button className="button">Learn More</button>
+                <Link to={'/event/6'}><button className="button">Learn More</button></Link>
               </div>
             </div>
           </SwiperSlide>
@@ -66,7 +66,7 @@ const SmallEvents = () => {
               <div className="event-card-content">
                 <h2>Upcoming Event</h2>
                 <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
-                <button className="button">Learn More</button>
+                <Link to={'/event/5'}><button className="button">Learn More</button></Link>
               </div>
             </div>
           </SwiperSlide>
@@ -76,7 +76,7 @@ const SmallEvents = () => {
               style={{ backgroundImage: 'url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc825c6589eda7717/5eb7cdc6ee88132a6f6cfc25/V_AGENTS_587x900_Viper.png)' }}
             >
               <div className="event-card-content">
-                <h2>Upcoming Event 1</h2>
+                <h2>Upcoming Event</h2>
                 <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
                 <Link to={'/event/1'}><button className="button">Learn More</button></Link>
               </div>
@@ -90,7 +90,7 @@ const SmallEvents = () => {
               <div className="event-card-content">
                 <h2>Upcoming Event</h2>
                 <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
-                <button className="button">Learn More</button>
+                <Link to={'/event/2'}><button className="button">Learn More</button></Link>
               </div>
             </div>
           </SwiperSlide>
@@ -102,7 +102,7 @@ const SmallEvents = () => {
               <div className="event-card-content">
                 <h2>Upcoming Event</h2>
                 <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
-                <button className="button">Learn More</button>
+                <Link to={'/event/3'}><button className="button">Learn More</button></Link>
               </div>
             </div>
           </SwiperSlide>
@@ -114,7 +114,7 @@ const SmallEvents = () => {
               <div className="event-card-content">
                 <h2>Upcoming Event</h2>
                 <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
-                <button className="button">Learn More</button>
+                <Link to={'/event/4'}><button className="button">Learn More</button></Link>
               </div>
             </div>
           </SwiperSlide>

@@ -121,8 +121,8 @@ header {
 
   width: 100%;
   height: 100%;
-  background-image: url(./components/video/agent-background-generic-ezgif.com-optiwebp.webp);
   z-index: -2;
+  background-color:#0f1923;
 }
 
 
@@ -367,6 +367,7 @@ color: #ECE8E1;
   border: 2px solid #333;
   filter: grayscale(0.8);
   background-color: #0f1923;
+  cursor: pointer;
 }
 
 .event-card-content {
@@ -404,7 +405,6 @@ color: #ECE8E1;
   background-size: 200% 100%;
   background-position: right;
   font-family: 'oxanium';
-
 }
 
 .event-card .button:hover {
@@ -417,12 +417,9 @@ color: #ECE8E1;
 }
 
 .event-card:hover {
-  
   filter: grayscale(0);
   transform: scale(1.1);
   border: 2px solid #ff4655;
-  
-  
 }
 
 .highlight {
@@ -452,7 +449,6 @@ color: #ECE8E1;
 
 .main .event-card:nth-child(3) {
   left: 5px;
-
   z-index: 3;
   transform: translateX() scale(1);
   background-image: url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf11234f4775729b7/5ebf2c275e73766852c8d5d4/V_AGENTS_587x900_ALL_Sova_2.png');
@@ -531,13 +527,9 @@ footer {
   flex-direction: column;
   background-color: #0f1923;
   width: 100%;
-  height: 60vh;
+  height: 50vh;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(#0000002d 90%, #ff283a48), url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltbded518020183769/5eb26f5389bac8148a8006cc/agent-background-generic.JPG");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
   text-align: center;
   font-family: 'oxanium';
   color: #fff;
@@ -1041,10 +1033,35 @@ footer .p2 {
   text-align: center;
   width: 100%;
   background-image: url(./components/img/bg.png);
+  background-position: top ;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   
 }
+.event-code{
+  position: absolute;
+  border-radius: 20px;
+  top: 87%;
+  gap: 10px;
+  margin:30px;
+  height:75vh;
+  display: flex;
+  width: 85vw;
+  background-color: rgb(246, 71, 85);
+  display: flex;
+  justify-content: center;
+  background-image: url(./components/img/bg.png);
+  background-position: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
+.event-code h1{
+  font-family: 'smooch sans';
+  font-size: 72px;
+  color:#1f2833;
+  
+  margin-top: 20px;
+
+}
 .event-info h1{
   font-family: 'smooch sans';
 font-size: 72px;
@@ -1149,6 +1166,20 @@ margin-top: 20px;
     border-bottom-right-radius: 0;
     border-top-left-radius: 0;
     margin-top: -3px;
+  }
+  .event-code{
+  
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+   
+    box-shadow: none;
+    top: 116vh;
+  }
+  .event-code h1{
+    margin-top: 0;
+    font-size: 44px;
   }
   .details-head .navbar{
     padding: 0;
