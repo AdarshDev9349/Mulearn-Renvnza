@@ -37,7 +37,7 @@ const EventDetail = () => {
 
     <div className="event-detail" >
       <img src={event.image}></img>
-    <div className='event-info'>
+     <div className='event-info'>
         <h1>{event.title}</h1>
         <p><b>ABOUT : </b>{event.description}</p>
         <ul>
@@ -50,7 +50,7 @@ const EventDetail = () => {
         <span class="btn__inner">
         <span class="btn__slide"></span>
         <span class="btn__content">Register now</span>
-      </span>
+        </span>
       </button>
       </div>
     </div>  
