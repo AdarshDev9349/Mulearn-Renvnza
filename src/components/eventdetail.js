@@ -2,6 +2,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import image from './img/poster.png'
+import { Link } from 'react-router-dom';
+
 const eventDetails = {
   1: {
     title: "Upcoming Event 1",
@@ -72,12 +74,12 @@ const EventDetail = () => {
     <nav className="navbar">
      
      <ul className='nav-menu'>
-       <li className="nav-item"><a href="#" className="nav-link">Home</a></li>
+      <Link to={'/'}><li className="nav-item"><a href="#" className="nav-link">Home</a></li></Link> 
     
-       <li className="nav-item"><a href="#" className="nav-link">Events</a></li>
+       <li className="nav-item"><a href="https://events.renvnza.in/" className="nav-link">More Events</a></li>
 
-       <li className="nav-item"><a href="#" className="nav-link">Contact</a></li>
-       <li className="nav-item"><a href="#" className="nav-link">Renvnza</a></li>
+      <li className="nav-item"><a href="#event-code" className="nav-link">Code of Conduct</a></li>
+       <li className="nav-item"><a href="https://www.renvnza.in/" className="nav-link">Renvnza</a></li>
      </ul>
    </nav>
 
@@ -104,9 +106,17 @@ const EventDetail = () => {
     </div>
 
 
-    <div className='event-code'>
+
+    
+        
+  <div className='event-code' id='event-code' >
       <h1>Code of Conduct</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, corporis. Eos reprehenderit deleniti libero, cum quam eaque consequatur vero quibusdam, minus, error corporis ipsa amet quo excepturi tempora obcaecati repellat!</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum odio, similique, aperiam quis reiciendis ducimus minus repudiandae, veniam recusandae incidunt dolor expedita nam hic quas tenetur? Obcaecati, cum nulla! Nam.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum odio, similique, aperiam quis reiciendis ducimus minus repudiandae, veniam recusandae incidunt dolor expedita nam hic quas tenetur? Obcaecati, cum nulla! Nam.</p>
+      
     </div>
+  
     </header>
     
   );

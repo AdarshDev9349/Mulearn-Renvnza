@@ -13,14 +13,14 @@ const Navbarham = () => {
 
   return (
     <nav className="navbar">
-      <a href="https://www.renvnza.in/" className="nav-logo no-space"><img src={logo} alt="Logo" /></a>
+      <a href="https://www.renvnza.in/"  className="nav-logo no-space"><img src={logo} style={{width:'9.5rem'}} alt="Logo" /></a>
       <a href="https://mulearn-ucek.netlify.app/" className="nav-logo no-space mulearn"><img src={logo2} alt="Logo" /></a>
       <ul className={`nav-menu ${menuActive ? 'active' : ''}`}>
 
         {/* Moved Home, Events, Contact, and Renvnza into hamburger menu */}
         <li className="nav-item"><a href="#" className="nav-link">Home</a></li>
         <li className="nav-item"><a href="https://events.renvnza.in/" className="nav-link">More Events</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Contact</a></li>
+        <li className="nav-item"><a href=""  className="nav-link">Contact</a></li>
         <li className="nav-item"><a href="https://www.renvnza.in/" className="nav-link">Renvnza</a></li>
       </ul>
       {/* Main navigation menu */}
