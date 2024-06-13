@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import EventDetails from './components/eventdetail';
 import Loading from './components/Loading'; // Import the Loading component
 import './index.css';
+import ScrollToTop  from './components/scroll';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -24,6 +25,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         {loading ? <Loading /> : (
           <Routes>

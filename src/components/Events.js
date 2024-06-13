@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import SmallEvents from './Events(s)'; // Import the new component
 import { Link } from 'react-router-dom';
 
 const Events = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
+  const location = useLocation(); // Get the current location
 
   useEffect(() => {
     const handleResize = () => {
@@ -19,6 +21,11 @@ const Events = () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+
+  // Effect to scroll to the top when the location changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
   if (isSmallScreen) {
     return <SmallEvents />;
@@ -83,3 +90,4 @@ const Events = () => {
 };
 
 export default Events;
+
