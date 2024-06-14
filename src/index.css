@@ -940,7 +940,7 @@ footer .p2 {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #ffffff; /* Text color (white) */
-  background-color: #1f2833; /* Valorant theme background color */
+  background-color: #1f2833; /* tech theme background color */
   padding: 20px;
   margin-top: 10px;
   border-radius: 8px;
@@ -966,7 +966,7 @@ footer .p2 {
 .timer-value {
   font-size: 24px;
   font-weight: bold;
-  color: #ff4655; /* Valorant red color for numbers */
+  color: #ff4655; /* tech red color for numbers */
 }
 
 /* Timer labels (Days, Hours, Minutes, Seconds) */
@@ -985,7 +985,7 @@ footer .p2 {
   font-size: 18px;
   font-weight: bold;
   text-align: center;
-  color: #ff4655; /* Valorant red color */
+  color: #ff4655; /* tech red color */
 }
 
 /* Cool pulsating effect animation */

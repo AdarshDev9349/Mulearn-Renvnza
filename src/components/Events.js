@@ -38,49 +38,49 @@ const Events = () => {
         <div className="event-card">
           <div className="event-card-content">
             <h2>Upcoming Event</h2>
-            <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
+            <p>Join us for an exciting tech tournament featuring top players from around the world.</p>
             <Link to={'/event/6'}><button className="button">Learn More</button></Link>
           </div>
         </div>
         <div className="event-card">
           <div className="event-card-content">
             <h2>Upcoming Event</h2>
-            <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
+            <p>Join us for an exciting tech tournament featuring top players from around the world.</p>
             <Link to={'/event/4'}><button className="button">Learn More</button></Link>
           </div>
         </div>
         <div className="event-card">
           <div className="event-card-content">
             <h2>Upcoming Event</h2>
-            <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
+            <p>Join us for an exciting tech tournament featuring top players from around the world.</p>
             <Link to={'/event/2'}><button className="button">Learn More</button></Link>
           </div>
         </div>
         <div className="event-card highlight">
           <div className="event-card-content">
             <h2>Upcoming Event</h2>
-            <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
+            <p>Join us for an exciting tech tournament featuring top players from around the world.</p>
             <Link to={'/event/1'}><button className="button">Learn More</button></Link>
           </div>
         </div>
         <div className="event-card">
           <div className="event-card-content">
             <h2>Upcoming Event</h2>
-            <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
+            <p>Join us for an exciting tech tournament featuring top players from around the world.</p>
             <Link to={'/event/3'}><button className="button">Learn More</button></Link>
           </div>
         </div>
         <div className="event-card">
           <div className="event-card-content">
             <h2>Upcoming Event</h2>
-            <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
+            <p>Join us for an exciting tech tournament featuring top players from around the world.</p>
             <Link to={'/event/5'}><button className="button">Learn More</button></Link>
           </div>
         </div>
         <div className="event-card">
           <div className="event-card-content">
             <h2>Upcoming Event</h2>
-            <p>Join us for an exciting Valorant tournament featuring top players from around the world.</p>
+            <p>Join us for an exciting tech tournament featuring top players from around the world.</p>
             <Link to={'/event/7'}><button className="button">Learn More</button></Link>
           </div>
         </div>

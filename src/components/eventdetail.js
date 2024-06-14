@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const eventDetails = {
   1: {
     title: "Upcoming Event 1",
-    description: "Join us for an exciting Valorant tournament featuring top players from around the world. Join us for an exciting Valorant tournament featuring top players from around the world. Join us for an exciting Valorant tournament featuring top players from around the world. Join us for an exciting Valorant tournament featuring top players from around the world.",
+    description: "Join us for an exciting tech tournament featuring top players from around the world. Join us for an exciting tech tournament featuring top players from around the world. Join us for an exciting tech tournament featuring top players from around the world. Join us for an exciting tech tournament featuring top players from around the world.",
     image: image,
     date: "3/6/2024",
     time: "10.30 AM",
