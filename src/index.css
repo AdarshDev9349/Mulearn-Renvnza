@@ -744,6 +744,7 @@ footer .p2 {
     }
   .more-events{
     margin-top: 0;
+    height: 15vh;
     
   }
   .more-events button{
@@ -854,6 +855,7 @@ footer .p2 {
 
   .more-events{
     margin-top: 0;
+   
   }
   .all-events{
     margin-bottom: 20px;
