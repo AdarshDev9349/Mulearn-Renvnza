@@ -10,24 +10,24 @@ const FAQ = () => {
 
   const faqData = [
     {
-      question: "What is tech?",
-      answer: "tech is a team-based tactical shooter and first-person shooter developed and published by Riot Games."
+      question: "lorem ipsum dolor sit",
+      answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, possimus"
     },
     {
-      question: "How can I join the events?",
-      answer: "You can join the events by registering through our official website or contacting our event organizers."
+      question: "lorem ipsum dolor sit",
+      answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, possimus"
     },
     {
-        question: "What is tech?",
-        answer: "tech is a team-based tactical shooter and first-person shooter developed and published by Riot Games."
+      question: "lorem ipsum dolor sit",
+      answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, possimus"
       },
       {
-        question: "What is tech?",
-        answer: "tech is a team-based tactical shooter and first-person shooter developed and published by Riot Games."
+      question: "lorem ipsum dolor sit",
+      answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, possimus"
       },
       {
-        question: "What is tech?",
-        answer: "tech is a team-based tactical shooter and first-person shooter developed and published by Riot Games."
+      question: "lorem ipsum dolor sit",
+      answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, possimus"
       },
    
   ];
