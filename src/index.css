@@ -1134,6 +1134,7 @@ margin-top: 20px;
 
   color: #000000;
   padding:180px;
+  padding-top: 0;
 }
 
 .faq__container {
@@ -1170,11 +1171,13 @@ margin-top: 20px;
 .faq__answer {
   display: none;
   padding-top: 0.5rem;
+ 
   
 }
 
 .faq__answer--active {
   display: block;
+
   
 
 }
@@ -1238,7 +1241,6 @@ margin-top: 20px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     border-top-left-radius: 0;
-   
     box-shadow: none;
     top: 116vh;
   }
@@ -1251,14 +1253,19 @@ margin-top: 20px;
     position: absolute;
   }
   #faq{
-    padding: 4px;
+    padding: 15px;
     padding-bottom: 0;
+    margin-bottom: -2px;
+  
   }
   .faq__title{
-    font-size: 4rem;
+    font-size: 3.4rem;
   }
   .faq__question{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .faq__toggle{
+    font-size: 2.3rem;
   }
 
 
