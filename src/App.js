@@ -11,6 +11,8 @@ import Loading from './components/Loading'; // Import the Loading component
 import './index.css';
 import ScrollToTop  from './components/scroll';
 import FAQ from './components/faq';
+import ScrollToBottom from './components/arrow';
+
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -38,6 +40,7 @@ function App() {
                 <MoreEvents />
                 <FAQ/>
                 <Footer />
+                <ScrollToBottom/>
               </>
             } />
             <Route path="/event/:id" element={<EventDetails />} />

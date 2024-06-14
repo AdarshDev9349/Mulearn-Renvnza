@@ -7,6 +7,51 @@ const Events = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
   const location = useLocation(); // Get the current location
 
+  const eventsData = [
+    {
+      id: 6,
+      title: "Nexus Conclave",
+      description: "Join Nexus Conclave 2024 at RenVnza to explore HR trends and tech community insights on 'Navigating the Future of Work.' Network and learn with industry leaders.",
+      highlight: false
+    },
+    {
+      id: 4,
+      title: "UI/UX Workshop",
+      description: "Unleash your creativity and explore the world of user experience and design in our workshop, hosted by Mulearn UCEK!",
+      highlight: false
+    },
+    {
+      id: 2,
+      title: "Product Designing",
+      description: "Join the Product Designing Workshop at RenVnzA'24 by Mulearn UCEK and explore product development from ideation to final concepts!",
+      highlight: false
+    },
+    {
+      id: 1,
+      title: "Dev Expo",
+      description: "Join us for Dev-Expo 2024, a grand exhibition where students and professionals from various campuses and industries come together.",
+      highlight: true
+    },
+    {
+      id: 3,
+      title: "Grand Quest Auto",
+      description: "Join us for an exciting tech tournament featuring top players from around the world.",
+      highlight: false
+    },
+    {
+      id: 5,
+      title: "3D Printing",
+      description: "Join us for an engaging 3D Printing Workshop where you will explore the fundamentals of 3D printing technology.",
+      highlight: false
+    },
+    {
+      id: 7,
+      title: "PCB Designing",
+      description: "Join us for an intensive PCB Designing Workshop where you'll learn to create schematics.",
+      highlight: false
+    }
+  ];
+
   useEffect(() => {
     const handleResize = () => {
       setIsSmallScreen(window.innerWidth <= 1400);
@@ -35,59 +80,18 @@ const Events = () => {
     <section className="all-events">
       <h1><span>//</span>Events</h1>
       <div className="main">
-        <div className="event-card">
-          <div className="event-card-content">
-            <h2>Nexus Conclave</h2>
-            <p>Join Nexus Conclave 2024 at RenVnza to explore HR trends and tech community insights on "Navigating the Future of Work." Network and learn with industry leaders.</p>
-            <Link to={'/event/6'}><button className="button">Learn More</button></Link>
+        {eventsData.map(event => (
+          <div key={event.id} className={`event-card ${event.highlight ? 'highlight' : ''}`}>
+            <div className="event-card-content">
+              <h2>{event.title}</h2>
+              <p>{event.description}</p>
+              <Link to={`/event/${event.id}`}><button className="button">Learn More</button></Link>
+            </div>
           </div>
-        </div>
-        <div className="event-card">
-          <div className="event-card-content">
-            <h2>UI/UX Workshop</h2>
-            <p>Join our Mulearn UCEK workshop at RenVnzA'24 to master user-centered design, wireframing, and prototyping tools.</p>
-            <Link to={'/event/4'}><button className="button">Learn More</button></Link>
-          </div>
-        </div>
-        <div className="event-card">
-          <div className="event-card-content">
-            <h2>Product Designing</h2>
-            <p>Join the Product Designing Workshop at RenVnzA'24 by Mulearn UCEK and explore product development from ideation to final concepts!</p>
-            <Link to={'/event/2'}><button className="button">Learn More</button></Link>
-          </div>
-        </div>
-        <div className="event-card highlight">
-          <div className="event-card-content">
-            <h2>Dev Expo</h2>
-            <p>Join us for an exciting tech tournament featuring top players from around the world.</p>
-            <Link to={'/event/1'}><button className="button">Learn More</button></Link>
-          </div>
-        </div>
-        <div className="event-card">
-          <div className="event-card-content">
-            <h2>Grand Quest Auto</h2>
-            <p>Join us for an exciting tech tournament featuring top players from around the world.</p>
-            <Link to={'/event/3'}><button className="button">Learn More</button></Link>
-          </div>
-        </div>
-        <div className="event-card">
-          <div className="event-card-content">
-            <h2>3D Printing</h2>
-            <p>Join us for an exciting tech tournament featuring top players from around the world.</p>
-            <Link to={'/event/5'}><button className="button">Learn More</button></Link>
-          </div>
-        </div>
-        <div className="event-card">
-          <div className="event-card-content">
-            <h2>PCB Designing</h2>
-            <p>Join us for an exciting tech tournament featuring top players from around the world.</p>
-            <Link to={'/event/7'}><button className="button">Learn More</button></Link>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );
 };
 
 export default Events;
-

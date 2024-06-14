@@ -10,25 +10,25 @@ const FAQ = () => {
 
   const faqData = [
     {
-      question: "lorem ipsum dolor sit",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, possimus"
+      "question": "What is RenVnza?",
+      "answer": "RenVnza '24 is the techno-cultural fest hosted by the University College of Engineering Kariavattom from July 3-5. MuLearn UCEK will be hosting the events mentioned on this website during the fest."
     },
     {
-      question: "lorem ipsum dolor sit",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, possimus"
+      "question": "Who can participate in the events?",
+      "answer": "All the events are designed with college students in mind. However, anyone who finds the event intriguing is welcome to attend."
     },
     {
-      question: "lorem ipsum dolor sit",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, possimus"
-      },
-      {
-      question: "lorem ipsum dolor sit",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, possimus"
-      },
-      {
-      question: "lorem ipsum dolor sit",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, possimus"
-      },
+      "question": "Are all events free?",
+      "answer": "Except for the Dev Expo and Nexus Conclave, all events hosted by MuLearn UCEK for RenVnza have a registration fee."
+    },
+    {
+      "question": "How many days are the events?",
+      "answer": "RenVnza '24' will take place from July 3 to 5, with events scheduled between these days. Only the Dev Expo will take place on all three days of the fest."
+    },
+    {
+      "question": "Will I get certificates for taking part in the events?",
+      "answer": "Yes, certificates will be provided for all the sessions hosted during the fest."
+    }
    
   ];
 

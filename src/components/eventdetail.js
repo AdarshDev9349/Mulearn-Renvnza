@@ -6,60 +6,60 @@ import { Link } from 'react-router-dom';
 
 const eventDetails = {
   1: {
-    title: "Upcoming Event 1",
-    description: "Join us for an exciting tech tournament featuring top players from around the world. Join us for an exciting tech tournament featuring top players from around the world. Join us for an exciting tech tournament featuring top players from around the world. Join us for an exciting tech tournament featuring top players from around the world.",
+    title: "Dev Expo",
+    description: "Join us for Dev-Expo 2024, a grand exhibition where students and professionals from various campuses and industries come together to showcase a diverse range of cutting-edge technical frameworks, stacks, and groundbreaking projects. Immerse yourself in the future of technology and discover new insights through the creativity and innovation of the next generation.",
     image: image,
     date: "3/6/2024",
     time: "10.30 AM",
-    venue: "EMS Hall"
+    venue: "Kariavattom"
   },
   2: {
-    title: "Upcoming Event 2",
-    description: "Experience the thrill of a live concert with renowned artists performing their greatest hits. Experience the thrill of a live concert with renowned artists performing their greatest hits. Experience the thrill of a live concert with renowned artists performing their greatest hits. Experience the thrill of a live concert with renowned artists performing their greatest hits.",
+    title: "Product Designing",
+    description: "Join the Product Designing Workshop as part of RenVnzA'24, hosted by Mulearn UCEK! Dive into the world of product design and explore the entire product development experience, from framing to ideation and final concepts!",
     image: image,
     date: "5/6/2024",
     time: "7.00 PM",
     venue: "City Arena"
   },
   3: {
-    title: "Upcoming Event 3",
-    description: "Join us for a tech conference where industry leaders will share their insights on the latest trends and innovations. Join us for a tech conference where industry leaders will share their insights on the latest trends and innovations. Join us for a tech conference where industry leaders will share their insights on the latest trends and innovations. Join us for a tech conference where industry leaders will share their insights on the latest trends and innovations.",
+    title: "",
+    description: "",
     image: image,
     date: "10/6/2024",
     time: "9.00 AM",
     venue: "Tech Park"
   },
   4: {
-    title: "Upcoming Event 4",
-    description: "Don't miss our annual charity run to support local communities and promote health and wellness. Don't miss our annual charity run to support local communities and promote health and wellness. Don't miss our annual charity run to support local communities and promote health and wellness. Don't miss our annual charity run to support local communities and promote health and wellness.",
+    title: "UI/UX Workshop",
+    description: "Unleash your creativity and explore the world of user experience and design in our workshop, hosted by Mulearn UCEK! Dive into the principles of user-centered design, learn wireframing techniques, and master the art of prototyping tools. Whether you're a budding designer or looking to enhance your skills, this workshop offers a unique opportunity to refine your digital journey as part of RenVnzA'24.",
     image: image,
     date: "15/6/2024",
     time: "6.00 AM",
-    venue: "Central Park"
+    venue: "Kariavattom"
   },
   5: {
-    title: "Upcoming Event 5",
-    description: "Attend an art exhibition showcasing the works of contemporary artists from around the globe. Attend an art exhibition showcasing the works of contemporary artists from around the globe. Attend an art exhibition showcasing the works of contemporary artists from around the globe. Attend an art exhibition showcasing the works of contemporary artists from around the globe.",
+    title: "3D Printing Workshop",
+    description: "Join us for an engaging 3D Printing Workshop where you will explore the fundamentals of 3D printing technology. This workshop covers essential concepts, from designing 3D models to operating 3D printers. Gain hands-on experience with industry-standard software and hardware, and learn best practices for successful 3D prints. Whether you're a beginner or seeking to enhance your skills, this workshop will provide the insights and techniques needed to turn your creative ideas into physical objects. Take advantage of this opportunity to delve into the exciting world of 3D printing and elevate your design capabilities!",
     image: image,
     date: "20/6/2024",
     time: "11.00 AM",
-    venue: "Art Gallery"
+    venue: "Kariavattom"
   },
   6: {
-    title: "Upcoming Event 6",
-    description: "Join us for a culinary festival featuring food stalls, cooking demonstrations, and competitions. Join us for a culinary festival featuring food stalls, cooking demonstrations, and competitions. Join us for a culinary festival featuring food stalls, cooking demonstrations, and competitions. Join us for a culinary festival featuring food stalls, cooking demonstrations, and competitions.",
+    title: "Nexus Conclave",
+    description: "Welcome to the Nexus Conclave 2024 at RenVnza, a premier event dedicated to addressing the latest trends, challenges, and innovations in human resources. This year’s theme, Navigating the Future of Work , focuses on equipping HR professionals on various industries ,and talks by the mentors of tech communities bringing out insights how tech communities bring out a great impact on converting a campus into a dynamic and evolving workplace landscape. This conclave offers a unique opportunity to network, learn, and grow with the best in the field.",
     image: image,
     date: "25/6/2024",
     time: "1.00 PM",
-    venue: "Downtown Plaza"
+    venue: "Kariavattom"
   },
   7: {
-    title: "Upcoming Event 7",
-    description: "Attend a business seminar to learn from successful entrepreneurs and expand your network. Attend a business seminar to learn from successful entrepreneurs and expand your network. Attend a business seminar to learn from successful entrepreneurs and expand your network. Attend a business seminar to learn from successful entrepreneurs and expand your network.",
+    title: "PCB Designing",
+    description: "Join us for an intensive PCB Designing Workshop where you'll learn to create schematics and develop your first fabricated PCB board. This hands-on session covers essential design principles, ideation steps, and best practices for PCB development. Gain practical experience in electronic design automation (EDA) tools and understand the complete workflow from concept to fabrication. Whether you're a beginner or looking to refine your skills, this workshop will equip you with the knowledge and confidence to bring your electronic projects to life.",
     image: image,
     date: "30/6/2024",
     time: "3.00 PM",
-    venue: "Convention Center"
+    venue: "Kariavattom"
   }
 };
 
