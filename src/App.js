@@ -10,6 +10,7 @@ import EventDetails from './components/eventdetail';
 import Loading from './components/Loading'; // Import the Loading component
 import './index.css';
 import ScrollToTop  from './components/scroll';
+import FAQ from './components/faq';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -35,6 +36,7 @@ function App() {
                 <Header/>
                 <Events />
                 <MoreEvents />
+                <FAQ/>
                 <Footer />
               </>
             } />
