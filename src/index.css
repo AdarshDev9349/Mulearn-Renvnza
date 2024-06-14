@@ -392,6 +392,7 @@ color: #ECE8E1;
 .event-card p {
   color: #fff;
   font-family: 'oxanium';
+  text-align:justify;
 }
 
 .event-card .button {
