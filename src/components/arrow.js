@@ -1,11 +1,14 @@
+import { Link } from 'react-scroll';
+
+
 const ScrollToBottom = () => {
     return (
       <a
-        href="events"
+        href=""
         aria-label="Scroll to next section"
         className="custom-class"
      
-      >
+      > <Link style={{display:'contents'}} to="footer" smooth={true} duration={200}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -48,6 +51,7 @@ const ScrollToBottom = () => {
             d="M19.5 8.25l-7.5 7.5-7.5-7.5"
           />
         </svg>
+        </Link>
       </a>
     );
   };

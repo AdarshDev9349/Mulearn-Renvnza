@@ -1224,8 +1224,8 @@ footer .p2 {
 
 .custom-class {
   position: absolute;
-  bottom: 2.5rem; /* 10 in Tailwind */
-  right: 50%; /* 1/2 in Tailwind */
+  bottom: 2.5rem; 
+  right: 49%; 
   transform: translateX(50%) scale(1.25);
   cursor: pointer;
   animation: stb 1s ease-in-out infinite;

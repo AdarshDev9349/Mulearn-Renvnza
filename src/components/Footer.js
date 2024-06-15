@@ -7,7 +7,7 @@ import twitter from './img/twitter.svg'
 import reddit from './img/reddit.svg'
 const Footer = () => {
   return (
-    <footer>
+    <footer className='footer' >
        <div className='Social-icon'>
           <ul>
             <li><a href='https://www.instagram.com/mulearn.ucek/'><img src={instagram} alt='Instagram'></img></a></li>
