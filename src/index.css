@@ -993,8 +993,10 @@ footer .p2 {
   border-radius: 20px;
   top: 90%;
   gap: 10px;
+
+  padding: 0 120px 40px 120px;
   margin: 30px;
-  height: 75vh;
+  height: max-content;
   display: flex;
   width: 85vw;
   background-color: rgb(246, 71, 85);
@@ -1022,18 +1024,15 @@ footer .p2 {
 
   margin-top: 20px;
 }
-
-
-.event-code h2{
-
-   align-self: flex-start;
-   margin-left: 20px;
-   font-size: 20px;
+.event-code li{
+  padding-bottom: 10px;
 }
+
 .event-code ul{
-  margin-right: auto;
+  margin-right: 28px;
   margin-left: 28px;
   font-size: 15px;
+  text-align: justify;
 }
 .event-info h1 {
   font-family: "smooch sans";
@@ -1180,14 +1179,16 @@ footer .p2 {
     border-bottom-right-radius: 0;
     border-top-left-radius: 0;
     box-shadow: none;
-    top: 119vh;
+    top: 116vh;
     margin: 0;
     width: inherit;
+    padding: 0;
+    padding-bottom: 20px;
   }
   .event-code p{
     font-size: 13px;
   }
-  .event-code p,h2{
+  .event-code p{
     padding: 0;
   }
   .event-code ul{

@@ -49,7 +49,8 @@ const Events = () => {
       title: "PCB Designing",
       description: "Join us for an intensive PCB Designing Workshop where you'll learn to create schematics.",
       highlight: false
-    }
+    },
+    
   ];
 
   useEffect(() => {
