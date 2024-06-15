@@ -35,7 +35,7 @@ const Events = () => {
     {
       id: 3,
       title: "Grand Quest Auto",
-      description: "Join us for the ultimate techno -treasure hunt spanning over an area of 420 acres",
+      description: "Join us for an exciting tech tournament featuring top players from around the world.",
       highlight: false
     },
     {

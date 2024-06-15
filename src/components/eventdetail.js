@@ -109,13 +109,27 @@ const EventDetail = () => {
 
     
         
-  <div className='event-code' id='event-code' >
-      <h1>Code of Conduct</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, corporis. Eos reprehenderit deleniti libero, cum quam eaque consequatur vero quibusdam, minus, error corporis ipsa amet quo excepturi tempora obcaecati repellat!</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum odio, similique, aperiam quis reiciendis ducimus minus repudiandae, veniam recusandae incidunt dolor expedita nam hic quas tenetur? Obcaecati, cum nulla! Nam.</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum odio, similique, aperiam quis reiciendis ducimus minus repudiandae, veniam recusandae incidunt dolor expedita nam hic quas tenetur? Obcaecati, cum nulla! Nam.</p>
-      
-    </div>
+    <div class='event-code' id='event-code'>
+  <h1>Code of Conduct</h1>
+  <p>We aim to provide a safe, inclusive, and welcoming environment for all participants. This Code of Conduct outlines our expectations for participant behavior and consequences for unacceptable actions.</p>
+  <h2>Expected Behavior</h2>
+  <ul>
+    <li><strong>Respect:</strong> Be respectful and considerate to everyone.</li>
+    <li><strong>Inclusivity:</strong> Embrace and support diversity.</li>
+    <li><strong>Professionalism:</strong> Act professionally in all interactions.</li>
+    <li><strong>Collaboration:</strong> Work together and be open to different ideas.</li>
+  </ul>
+  <h2>Unacceptable Behavior</h2>
+  <ul>
+    <li><strong>Harassment:</strong> No harassment, including verbal abuse or unwelcome attention.</li>
+    <li><strong>Discrimination:</strong> No discrimination based on race, gender, sexual orientation, disability, religion, age, etc.</li>
+    <li><strong>Disruption:</strong> Avoid disruptive behavior.</li>
+    <li><strong>Violence:</strong> No violence, threats, or intimidation.</li>
+    <li><strong>Unethical Conduct:</strong> No plagiarism or theft of intellectual property.</li>
+  </ul>
+
+</div>
+
   
     </header>
     

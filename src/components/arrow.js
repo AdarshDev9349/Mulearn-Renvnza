@@ -1,7 +1,7 @@
 const ScrollToBottom = () => {
     return (
       <a
-        href="#meetus"
+        href="events"
         aria-label="Scroll to next section"
         className="custom-class"
      

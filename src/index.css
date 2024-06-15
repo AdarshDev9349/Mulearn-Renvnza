@@ -1010,7 +1010,7 @@ footer .p2 {
 .event-code p {
   font-family: "oxanium";
   font-size: 18px;
-  margin: 38px;
+  margin: 0px 20px;
   text-align: justify;
   font-weight: bold;
   color: #1f2833;
@@ -1021,6 +1021,19 @@ footer .p2 {
   color: #1f2833;
 
   margin-top: 20px;
+}
+
+
+.event-code h2{
+
+   align-self: flex-start;
+   margin-left: 20px;
+   font-size: 20px;
+}
+.event-code ul{
+  margin-right: auto;
+  margin-left: 28px;
+  font-size: 15px;
 }
 .event-info h1 {
   font-family: "smooch sans";
@@ -1074,6 +1087,7 @@ footer .p2 {
   color: #000000;
   padding: 180px;
   padding-top: 0;
+  padding-bottom: 100px;
 }
 
 .faq__container {
@@ -1104,12 +1118,15 @@ footer .p2 {
 }
 
 .faq__answer {
-  display: none;
-  padding-top: 0.5rem;
+  max-height: 0;
+  overflow: hidden;
+  transition:  max-height ease-in 0.2s;
+  
 }
 
 .faq__answer--active {
   display: block;
+  max-height: 100px;
 }
 
 @media all and (max-width: 750px) {
@@ -1181,7 +1198,7 @@ footer .p2 {
   #faq {
     padding: 15px;
     padding-bottom: 0;
-    margin-bottom: -1px;
+    margin-bottom: 10px;
   }
   .faq__title {
     font-size: 3.4rem;
@@ -1228,4 +1245,7 @@ footer .p2 {
 }
 .spacey{
   margin-top: -10px;
+}
+.iconn{
+  fill: white;
 }

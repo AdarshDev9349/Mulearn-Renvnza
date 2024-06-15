@@ -38,7 +38,7 @@ const SmallEvents = () => {
     {
       id: 3,
       title: "Grand Quest Auto",
-      description: "Join us for the ultimate techno -treasure hunt spanning over an area of 420 acres",
+      description: "Join us for an exciting tech tournament featuring top players from around the world.",
       imageUrl: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png"
     },
     {
