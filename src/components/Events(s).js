@@ -14,7 +14,7 @@ const SmallEvents = () => {
     {
       id: 6,
       title: "Nexus Conclave",
-      description: "Join Nexus Conclave 2024 at RenVnza to explore HR trends and tech community insights on 'Navigating the Future of Work.' Network and learn with industry leaders.",
+      description: "Join Nexus Conclave 2024 to explore HR trends and tech community insights.Network and learn with industry leaders.",
       imageUrl: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt302fcb2b9628c376/5f7fa6ff8db9ea0f149ece0a/V_AGENTS_587x900_ALL_Skye.png"
     },
     {
