@@ -1225,7 +1225,7 @@ footer .p2 {
 .custom-class {
   position: absolute;
   bottom: 2.5rem; 
-  right: 49%; 
+  right: 49.5%; 
   transform: translateX(50%) scale(1.25);
   cursor: pointer;
   animation: stb 1s ease-in-out infinite;
@@ -1290,6 +1290,11 @@ footer .p2 {
       font-size: 16px;
       
   }
+  .custom-class{
+
+    right: 49%;
+  }
+  
 }
 
 @media (max-width: 480px) {
