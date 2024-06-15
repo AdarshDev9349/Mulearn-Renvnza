@@ -20,13 +20,13 @@ const SmallEvents = () => {
     {
       id: 4,
       title: "UI/UX Workshop",
-      description: "Unleash your creativity and explore the world of user experience and design in our workshop, hosted by Mulearn UCEK!",
+      description: "Unleash your creativity and explore the world of user experience and design in our workshop.",
       imageUrl: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt53405c26141beff8/5f21fda671ec397ef9bf0894/V_AGENTS_587x900_KillJoy_.png"
     },
     {
       id: 2,
       title: "Product Designing",
-      description: "Join the Product Designing Workshop at RenVnzA'24 by Mulearn UCEK and explore product development from ideation to final concepts!",
+      description: "Join the Product Designing Workshop and explore product development from ideation to final concepts!",
       imageUrl: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd4080f8efb365751/5ff5660bb47cdf7fc7d6c3dc/V_AGENTS_587x900_yoru.png"
     },
     {
@@ -38,7 +38,7 @@ const SmallEvents = () => {
     {
       id: 3,
       title: "Grand Quest Auto",
-      description: "Join us for an exciting tech tournament featuring top players from around the world.",
+      description: "Join us for the ultimate techno -treasure hunt spanning over an area of 420 acres",
       imageUrl: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png"
     },
     {

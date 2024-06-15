@@ -19,15 +19,15 @@ const eventDetails = {
     image: image,
     date: "5/6/2024",
     time: "7.00 PM",
-    venue: "City Arena"
+    venue: "Kariavattom"
   },
   3: {
-    title: "",
-    description: "",
+    title: "Grand Quest Auto",
+    description: "GQA is aiming to be South India's Largest Techno Treasure Hunt.GQA is more than just a treasure hunt—it's a challenging event meant to push your tech skills to the limit. GQA features various tech challenges in areas like coding, cybersecurity, and data analysis. Participants must use their knowledge, ingenuity, and problem-solving abilities to succeed.Held on a large 350-acre campus, the tasks mimic real-life situations to provide practical experience. Unlike typical games, GQA needs practical skills and creativity.",
     image: image,
-    date: "10/6/2024",
+    date: "29/6/2024",
     time: "9.00 AM",
-    venue: "Tech Park"
+    venue: "Kariavattom"
   },
   4: {
     title: "UI/UX Workshop",
@@ -97,7 +97,7 @@ const EventDetail = () => {
        <button className='eventbtn second'>      
         <span class="btn__inner">
         <span class="btn__slide"></span>
-        <span class="btn__content">Register now</span>
+        <span class="btn__content">Coming Soon</span>
         </span>
       </button>
       </div>

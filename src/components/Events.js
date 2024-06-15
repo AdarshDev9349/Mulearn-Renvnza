@@ -11,19 +11,19 @@ const Events = () => {
     {
       id: 6,
       title: "Nexus Conclave",
-      description: "Join Nexus Conclave 2024 at RenVnza to explore HR trends and tech community insights on 'Navigating the Future of Work.' Network and learn with industry leaders.",
+      description: "Join Nexus Conclave 2024 to explore HR trends and tech community insights.Network and learn with industry leaders.",
       highlight: false
     },
     {
       id: 4,
       title: "UI/UX Workshop",
-      description: "Unleash your creativity and explore the world of user experience and design in our workshop, hosted by Mulearn UCEK!",
+      description: "Unleash your creativity and explore the world of user experience and design in our workshop.",
       highlight: false
     },
     {
       id: 2,
       title: "Product Designing",
-      description: "Join the Product Designing Workshop at RenVnzA'24 by Mulearn UCEK and explore product development from ideation to final concepts!",
+      description: "Join the Product Designing Workshop and explore product development from ideation to final concepts!",
       highlight: false
     },
     {
@@ -35,7 +35,7 @@ const Events = () => {
     {
       id: 3,
       title: "Grand Quest Auto",
-      description: "Join us for an exciting tech tournament featuring top players from around the world.",
+      description: "Join us for the ultimate techno -treasure hunt spanning over an area of 420 acres",
       highlight: false
     },
     {

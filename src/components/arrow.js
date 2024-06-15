@@ -40,7 +40,7 @@ const ScrollToBottom = () => {
           viewBox="0 0 24 24"
           strokeWidth={3}
           stroke="#ffffff40"
-          className="spacex"
+          className="spacey"
         >
           <path
             strokeLinecap="round"
