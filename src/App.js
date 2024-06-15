@@ -12,7 +12,7 @@ import './index.css';
 import ScrollToTop  from './components/scroll';
 import FAQ from './components/faq';
 import ScrollToBottom from './components/arrow';
-
+import About from './components/about';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -36,6 +36,7 @@ function App() {
               <>
                 <Navbar/>
                 <Header/>
+                <About/>
                 <Events />
                 <MoreEvents />
                 <FAQ/>

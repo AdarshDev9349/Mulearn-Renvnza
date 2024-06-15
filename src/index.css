@@ -111,7 +111,7 @@ header {
   height: 80vh;
   width: 100%;
   overflow-x: hidden !important;
-  margin: 0 0 100px 0;
+  margin: 0 0 70px 0;
 }
 .backgroundwebp {
   width: 100%;
@@ -1254,6 +1254,50 @@ footer .p2 {
 .spacey{
   margin-top: -10px;
 }
-.iconn{
-  fill: white;
+
+
+
+
+.about h1{
+  font-family: "smooch sans";
+  font-size: 72px;
+  color: #1f2833;
+
+}
+
+.about p{
+  font-size: 20px;
+  font-family: 'oxanium';
+
+
+  font-weight: 600;
+  text-align: center;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100vw; 
+  margin: 0 auto;
+  padding: 60px; 
+  padding-top: 0;
+  font-size: 18px;
+  line-height: 1.6; 
+}
+
+@media (max-width: 768px) {
+  .about {
+      font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+      font-size: 14px; /* Further adjust font size for very small screens */
+  }
+  .about p{
+    font-size: 14px;
+    text-align: justify;
+
+  }
 }
