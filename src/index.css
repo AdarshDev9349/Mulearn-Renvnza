@@ -1287,13 +1287,16 @@ footer .p2 {
 
 @media (max-width: 768px) {
   .about {
-      font-size: 16px; /* Adjust font size for smaller screens */
+      font-size: 16px;
+      
   }
 }
 
 @media (max-width: 480px) {
   .about {
-      font-size: 14px; /* Further adjust font size for very small screens */
+      font-size: 14px;
+      padding: 20px;
+      padding-top: 0;
   }
   .about p{
     font-size: 14px;
