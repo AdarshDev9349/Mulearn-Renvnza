@@ -13,7 +13,7 @@ import ScrollToTop  from './components/scroll';
 import FAQ from './components/faq';
 import ScrollToBottom from './components/arrow';
 import About from './components/about';
-
+import Sponsor from './sponsorus';
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -45,6 +45,7 @@ function App() {
               </>
             } />
             <Route path="/event/:id" element={<EventDetails />} />
+            <Route path='/sponsor-us' element={<Sponsor/>}/>
           </Routes>
         )}
       </div>

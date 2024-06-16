@@ -57,7 +57,7 @@ img {
   justify-content: center;
   align-items: center;
   padding: 2rem 5rem;
-  background-color: #0f1923;
+  background-color: #0f1923  ;
 }
 
 /* HAMBURGER STYLE */
@@ -218,6 +218,7 @@ header {
 .eventbtn::before {
   top: 0;
   border-bottom-width: 0;
+  
 }
 
 .eventbtn::after {
@@ -1284,6 +1285,50 @@ footer .p2 {
   font-size: 18px;
   line-height: 1.6; 
 }
+/*why partner with us?*/
+
+
+.section-hero {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  margin: 10px 180px;
+}
+
+.section-hero img {
+  width: 90%;
+  height: auto;
+}
+
+.section-hero h1 {
+  font-size: 41px;
+  font-family: "smooch sans";
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.section-hero .span {
+
+  color: #ff4655;
+}
+
+.section-hero .text p, .section-hero .text ul {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: "oxanium";
+  text-align: justify;
+}
+
+.section-hero .text ul {
+  padding-left: 20px;
+
+}
+
+.section-hero .text ul li {
+  margin-bottom: 10px;
+}
+
 
 @media (max-width: 768px) {
   .about {
@@ -1294,7 +1339,39 @@ footer .p2 {
 
     right: 49%;
   }
-  
+  .section-hero{
+    display: grid;
+    justify-content: center;
+    margin: 0;
+    padding: 15px;
+  }
+  .section-hero img{
+    display: none;
+  }
+  .section-hero h1 {
+    font-size: 31px;
+    font-family: "smooch sans";
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  .section-hero .text p, .section-hero .text ul {
+    font-size: 13px;
+    line-height: 1.4;
+    color: #ffffff;
+    font-family: "oxanium";
+    text-align: justify;
+  }
+  .section-hero .btndiv{
+    
+     justify-content: center;
+
+  }
+  .section-hero button{
+      font-size: 10px;
+  }
+  .section-hero .btn__inner{
+    padding: 12px 20px;
+  }
 }
 
 @media (max-width: 480px) {

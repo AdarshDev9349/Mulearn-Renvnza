@@ -3,7 +3,8 @@ import { Link } from 'react-scroll';
 
 const ScrollToBottom = () => {
     return (
-      <a
+      <div style={{display:'grid'}}>
+              <a
         href=""
         aria-label="Scroll to next section"
         className="custom-class"
@@ -53,6 +54,8 @@ const ScrollToBottom = () => {
         </svg>
         </Link>
       </a>
+      </div>
+
     );
   };
   

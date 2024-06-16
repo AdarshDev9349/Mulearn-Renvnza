@@ -2,7 +2,8 @@ import React, { useState,useEffect } from 'react';
 import logo from './img/Renvnza.svg';
 import logo2 from './img/mulearn-campus-logo.svg';
 import Navbarham from './ham';
-import { Link } from 'react-scroll';
+import { Link as Scroll } from 'react-scroll';
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -30,10 +31,10 @@ const Navbar = () => {
     <nav className="navbar">
      
       <ul className='nav-menu'>
-        <li className="nav-item"><a href="" className="nav-link">Home</a></li>
-        <Link style={{display:'contents'}} to="all-events" smooth={true} duration={200}>
+        <Link to={'/'}><li className="nav-item"><a href="" className="nav-link">Home</a></li></Link>
+        <Scroll style={{display:'contents'}} to="all-events" smooth={true} duration={200}>
         <li className="nav-item"><a href="#" className="nav-link">Events</a></li>
-        </Link>
+        </Scroll>
         <a href="https://www.renvnza.in/" className="nav-logo  no-space"><img src={logo} alt="Logo" /></a>
         <a href="https://mulearn-ucek.netlify.app/" className="nav-logo no-space mulearn"><img src={logo2} alt="Logo" /></a>
         <li className="nav-item"><a href="#" className="nav-link">Contact</a></li>
