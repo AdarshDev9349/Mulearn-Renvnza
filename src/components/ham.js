@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import logo from './img/Renvnza.svg';
 import logo2 from './img/mulearn-campus-logo.svg';
 import { useAnimate, stagger } from 'framer-motion';
-
+import { Link } from 'react-router-dom';
 function useMenuAnimation(isOpen) {
   const [scope, animate] = useAnimate();
 
@@ -68,7 +68,7 @@ const Navbarham = () => {
         <img src={logo2} alt="Logo" />
       </a>
       <ul className={`nav-menu ${menuActive ? 'active' : ''}`}>
-        <li className="nav-item"><a href="#" className="nav-link">Home</a></li>
+      <Link to={'/'}><li className="nav-item"><a href="" className="nav-link">Home</a></li></Link>
         <li className="nav-item"><a href="https://events.renvnza.in/" className="nav-link">More Events</a></li>
         <li className="nav-item"><a href="" className="nav-link">Contact</a></li>
         <li className="nav-item"><a href="https://www.renvnza.in/" className="nav-link">Renvnza</a></li>

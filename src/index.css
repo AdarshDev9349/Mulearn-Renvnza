@@ -517,7 +517,7 @@ footer {
   flex-direction: column;
   background-color: #0f1923;
   width: 100%;
-  height: 50vh;
+  height: 40vh;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -1419,7 +1419,7 @@ footer .p2 {
   .section-hero{
     display: grid;
     justify-content: center;
-    margin: 50px 0px;
+    margin: 10px 0px;
     padding: 15px;
   }
   .section-hero img{
@@ -1429,10 +1429,10 @@ footer .p2 {
     font-size: 36px;
     font-family: "smooch sans";
     color: #ffffff;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .section-hero .text p, .section-hero .text ul {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.4;
     color: #ffffff;
     font-family: "oxanium";
@@ -1460,6 +1460,7 @@ footer .p2 {
     justify-content: center;
     align-items: center;
     gap: 16px;
+    margin-bottom: 10px
 
   }
   .section-hero .text ul {
@@ -1485,6 +1486,21 @@ footer .p2 {
 }
   .section-sponsorship .btn__inner{
   padding: 12px 20px;
+}
+footer {
+  height: 39vh;
+}
+footer .Social-icon img{
+  width: 24px;
+}
+footer .nav-logo img{
+  width: 9rem;
+}
+footer p{
+  font-size: 16px;
+}
+footer .p2{
+  font-size: 14px;
 }
 }
 
@@ -1518,4 +1534,6 @@ footer .p2 {
     font-size: 14px;
     margin: 0;
   }
+
+
 }
