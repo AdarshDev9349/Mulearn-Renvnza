@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Smooch+Sans:wght@100..900&display=swap");
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -1402,6 +1405,9 @@ footer .p2 {
 
 
 @media (max-width: 768px) {
+    
+
+
   .about {
       font-size: 16px;
       
@@ -1420,7 +1426,7 @@ footer .p2 {
     display: none;
   }
   .section-hero h1 {
-    font-size: 31px;
+    font-size: 36px;
     font-family: "smooch sans";
     color: #ffffff;
     margin-bottom: 20px;

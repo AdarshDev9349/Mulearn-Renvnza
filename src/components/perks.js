@@ -3,9 +3,13 @@ import { motion } from "framer-motion";
 import useInView from './useinview'; // Ensure to adjust the path according to your file structure
 
 const SponsorshipPerks = () => {
-  const [titleRef, titleInView] = useInView({ threshold: 0.1 });
-  const [goldRef, goldInView] = useInView({ threshold: 0.1 });
-  const [silverRef, silverInView] = useInView({ threshold: 0.1 });
+  const [titleRef, titleInView] = useInView({ threshold: 0.1 }, 1000);
+  const [goldRef, goldInView] = useInView({ threshold: 0.1 }, 1000);
+  const [silverRef, silverInView] = useInView({ threshold: 0.1 }, 1000);
+
+  const isMobile = window.innerWidth < 768;
+  const duration = isMobile ? 0.5 : 0.8;
+  const delay = isMobile ? 0.4 : 0.8;
 
   return (
     <div className="section-sponsorship">
@@ -19,8 +23,8 @@ const SponsorshipPerks = () => {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={titleInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
             transition={{
-              duration: 0.8,
-              delay: 0.6,
+              duration: duration,
+              delay: delay-0.4,
               ease: [0, 0.71, 0.2, 1.01],
             }}
             className="perk"
@@ -49,8 +53,8 @@ const SponsorshipPerks = () => {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={goldInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
             transition={{
-              duration: 0.8,
-              delay: 0.7,
+              duration: duration,
+              delay: delay- 0.3,
               ease: [0, 0.71, 0.2, 1.01],
             }}
             className="perk"
@@ -78,8 +82,8 @@ const SponsorshipPerks = () => {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={silverInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
             transition={{
-              duration: 0.8,
-              delay: 0.8,
+              duration: duration,
+              delay: delay - 0.2,
               ease: [0, 0.71, 0.2, 1.01],
             }}
             className="perk"
