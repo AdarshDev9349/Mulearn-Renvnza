@@ -1,20 +1,39 @@
-import React from 'react';
-
+import React from "react";
+import { motion } from "framer-motion";
+import useInView from './useinview'; // Ensure to adjust the path according to your file structure
 
 const SponsorshipPerks = () => {
+  const [titleRef, titleInView] = useInView({ threshold: 0.1 });
+  const [goldRef, goldInView] = useInView({ threshold: 0.1 });
+  const [silverRef, silverInView] = useInView({ threshold: 0.1 });
+
   return (
     <div className="section-sponsorship">
       <div className="text">
         <h1>
-          Discover Your <span className='span'>Sponsorship Perks</span>
+          Discover Your <span className="span">Sponsorship Perks</span>
         </h1>
         <div className="perks-container">
-          <div className="perk">
+          <motion.div
+            ref={titleRef}
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={titleInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
+            transition={{
+              duration: 0.8,
+              delay: 0.6,
+              ease: [0, 0.71, 0.2, 1.01],
+            }}
+            className="perk"
+          >
             <h2>Title Sponsor (50k)</h2>
             <ul>
-              <li>Name & Logo attached with title & title sponsor placed near the event name in largest size</li>
+              <li>
+                Name & Logo attached with title & title sponsor placed near the
+                event name in largest size
+              </li>
               <li>On all creatives (online & offline)</li>
-              <li>Deliverables:
+              <li>
+                Deliverables:
                 <ul>
                   <li>Standees</li>
                   <li>Stalls</li>
@@ -24,13 +43,27 @@ const SponsorshipPerks = () => {
                 </ul>
               </li>
             </ul>
-          </div>
-          <div className="perk">
+          </motion.div>
+          <motion.div
+            ref={goldRef}
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={goldInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
+            transition={{
+              duration: 0.8,
+              delay: 0.7,
+              ease: [0, 0.71, 0.2, 1.01],
+            }}
+            className="perk"
+          >
             <h2>Gold Package (30k)</h2>
             <ul>
-              <li>Name & Logo attached with title & title sponsor placed near the event name in largest size</li>
+              <li>
+                Name & Logo attached with title & title sponsor placed near the
+                event name in largest size
+              </li>
               <li>On all creatives (online & offline)</li>
-              <li>Deliverables:
+              <li>
+                Deliverables:
                 <ul>
                   <li>Standees</li>
                   <li>Community promotion</li>
@@ -39,17 +72,30 @@ const SponsorshipPerks = () => {
                 </ul>
               </li>
             </ul>
-          </div>
-          <div className="perk">
+          </motion.div>
+          <motion.div
+            ref={silverRef}
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={silverInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
+            transition={{
+              duration: 0.8,
+              delay: 0.8,
+              ease: [0, 0.71, 0.2, 1.01],
+            }}
+            className="perk"
+          >
             <h2>Silver Package (10k)</h2>
             <ul>
-              <li>Name & Logo attached with title & title sponsor placed near the event name in largest size</li>
+              <li>
+                Name & Logo attached with title & title sponsor placed near the
+                event name in largest size
+              </li>
               <li>On all creatives (online & offline)</li>
             </ul>
-          </div>
+          </motion.div>
         </div>
         <div className="btndiv">
-          <button className="eventbtn" style={{marginLeft:"10px"}}>
+          <button className="eventbtn" style={{ marginLeft: "10px" }}>
             <span className="btn__inner">
               <span className="btn__slide"></span>
               <span className="btn__content">Get in Touch with us</span>
@@ -59,6 +105,6 @@ const SponsorshipPerks = () => {
       </div>
     </div>
   );
-}
+};
 
 export default SponsorshipPerks;
