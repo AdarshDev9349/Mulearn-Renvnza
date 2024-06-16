@@ -1292,16 +1292,16 @@ footer .p2 {
   display: flex;
   align-items: center;
   gap: 120px;
-  margin: 10px 180px;
+  margin: 10px 160px;
 }
 
 .section-hero img {
-  width: 90%;
+  width: 85%;
   height: auto;
 }
 
 .section-hero h1 {
-  font-size: 41px;
+  font-size: 55px;
   font-family: "smooch sans";
   color: #ffffff;
   margin-bottom: 20px;
@@ -1366,7 +1366,7 @@ footer .p2 {
 }
 
 .perk {
-  background-color:#162433;
+  background-color: #162433;
   padding: 20px;
   border-radius: 8px;
   flex: 1;
@@ -1394,6 +1394,7 @@ footer .p2 {
 .btndiv {
   
   justify-content: center;
+  color: black;
 }
 
 

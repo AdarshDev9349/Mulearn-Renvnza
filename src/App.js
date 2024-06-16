@@ -16,7 +16,7 @@ import About from './components/about';
 import Sponsor from './sponsorus';
 function App() {
   const [loading, setLoading] = useState(true);
-
+ 
   useEffect(() => {
     // Simulate a delay to show the loading spinner
     const timer = setTimeout(() => {

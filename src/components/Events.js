@@ -4,6 +4,7 @@ import SmallEvents from './Events(s)'; // Import the new component
 import { Link } from 'react-router-dom';
 
 const Events = () => {
+  
   const [isSmallScreen, setIsSmallScreen] = useState(false);
   const location = useLocation(); // Get the current location
 
@@ -78,7 +79,7 @@ const Events = () => {
   }
 
   return (
-    <section className="all-events">
+    <section className="all-events" id='all-events'>
       <h1><span>//</span>Events</h1>
       <div className="main">
         {eventsData.map(event => (
