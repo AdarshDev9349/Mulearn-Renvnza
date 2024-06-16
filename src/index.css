@@ -1377,15 +1377,19 @@ footer .p2 {
   }
   .section-hero .small-img{
     display: flex;
-   
-    width: 26%;
-    margin-left: 19px;
-    margin-bottom: 10px;
+    width: 27%;
+  
   }
   .section-hero .small-div{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 
-
+  }
+  .section-hero .text ul {
+    padding-left: 0;
+  
   }
 }
 
