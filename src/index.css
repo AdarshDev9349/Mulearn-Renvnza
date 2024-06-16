@@ -1441,6 +1441,7 @@ footer .p2 {
   .section-hero .btndiv{
     
      justify-content: center;
+     margin-top: 15px;
 
   }
   .section-hero button{
@@ -1488,6 +1489,9 @@ footer .p2 {
 }
 
 @media (max-width: 480px) {
+  .section-hero h1 {
+    font-size: 31px;
+  }
   .about {
       font-size: 14px;
       padding: 20px;
