@@ -1328,6 +1328,9 @@ footer .p2 {
 .section-hero .text ul li {
   margin-bottom: 10px;
 }
+.section-hero .small-img{
+  display: none;
+}
 
 
 @media (max-width: 768px) {
@@ -1355,7 +1358,7 @@ footer .p2 {
     margin-bottom: 20px;
   }
   .section-hero .text p, .section-hero .text ul {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1.4;
     color: #ffffff;
     font-family: "oxanium";
@@ -1371,6 +1374,18 @@ footer .p2 {
   }
   .section-hero .btn__inner{
     padding: 12px 20px;
+  }
+  .section-hero .small-img{
+    display: flex;
+   
+    width: 26%;
+    margin-left: 19px;
+    margin-bottom: 10px;
+  }
+  .section-hero .small-div{
+    display: flex;
+
+
   }
 }
 
