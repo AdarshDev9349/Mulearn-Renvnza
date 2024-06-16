@@ -43,7 +43,7 @@ const SponsorshipPerks = () => {
                   <li>Stalls</li>
                   <li>Community promotion</li>
                   <li>Rights to re-use event’s media assets</li>
-                  <li>Students Marketing</li>
+        
                 </ul>
               </li>
             </ul>
@@ -72,7 +72,7 @@ const SponsorshipPerks = () => {
                   <li>Standees</li>
                   <li>Community promotion</li>
                   <li>Rights to re-use event’s media assets</li>
-                  <li>Students Marketing</li>
+                  
                 </ul>
               </li>
             </ul>

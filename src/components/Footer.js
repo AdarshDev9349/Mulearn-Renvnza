@@ -9,6 +9,7 @@ const Footer = () => {
   return (
     <footer className='footer' >
        <div className='Social-icon'>
+        <h1>Social media</h1>
           <ul>
             <li><a href='https://www.instagram.com/mulearn.ucek/'><img src={instagram} alt='Instagram'></img></a></li>
             <li><a href='https://github.com/Mulearn-ucek'><img src={github} alt='Github'></img></a></li>
@@ -18,12 +19,21 @@ const Footer = () => {
           </ul>
           
         </div>
-      <div>
-       <a href="https://www.renvnza.in/" className="nav-logo  no-space"><img src={logo} alt="Logo" /></a>
-        <a href="https://mulearn-ucek.netlify.app/" className="nav-logo no-space mulearn"><img src={logo2} alt="Logo" /></a>
+      <div className='footer-logos'>
+         <div className='logo-f'><a href="https://www.renvnza.in/" className="nav-logo  no-space"><img src={logo} alt="Logo" /></a>
+         <a href="https://mulearn-ucek.netlify.app/" className="nav-logo no-space mulearn"><img src={logo2} alt="Logo" /></a></div>
+        <p style={{margin:'8px'}}><i className="fas fa-copyright"></i>  Made With Passion by MulearnUcek</p>
+        <p style={{margin:'10px'}} className="p2">All images, videos, and contents are property of riot games</p>
         </div>
-      <p style={{margin:'8px'}}><i className="fas fa-copyright"></i>  Made With Passion by MulearnUcek</p>
-      <p style={{margin:'10px'}} className="p2">All images, videos, and contents are property of riot games</p>
+        <div className='contact'>
+          <h1>Contact Us</h1>
+           <ul>
+            <li>Email: mulearnucek@gmail.com
+              <li>Phone: 7907977205</li>
+            </li>
+           </ul>
+        </div>
+
     </footer>
   );
 };

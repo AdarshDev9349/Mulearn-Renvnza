@@ -15,7 +15,6 @@ const Partner = () => {
                 </p>
                 <div className='small-div'>
                 <ul>
-                    <li>Top 100 coders runner up</li>
                     <li>5+ students joined startup companies</li>
                     <li>20+ students secured internships</li>
                     <li>Ranked 8th in Kerala</li>
@@ -23,7 +22,7 @@ const Partner = () => {
                 </ul>
                 <img src={image} alt="Image" className="small-img" /></div>
                 <p>
-                We are partnering with the Kerala Startup Mission (KSUM) and are an integral part of the MuLearn Foundation. These collaborations enable us to provide top-notch resources and opportunities for our students, fostering innovation, skill development, and career advancement.
+                As a part of Mulearn foundation we are  to provide top-notch resources and opportunities for our students, fostering innovation, skill development, and career advancement.
                 </p>
                 <div className="btndiv">
                     <button className="eventbtn" style={{top:'0',marginTop:'16px',marginLeft:'9px'}}>
