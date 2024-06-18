@@ -57,7 +57,7 @@ const SmallEvents = () => {
 
   return (
     <section className="all-events">
-      <h1><span>//</span>Events</h1>
+      <h1 style={{display:'flex',justifyContent:'center',fontSize:'6rem'}}>Events</h1>
       <div className="main">
         <Swiper
           effect={'coverflow'}

@@ -173,7 +173,7 @@ header {
   }
 }
 .eventbtn {
-  /* Clean style */
+ 
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
@@ -200,10 +200,13 @@ header {
   font-weight: bold;
   font-size: 14px;
   transition: all 0.15s ease;
-
+  
   font-family: "oxanium";
 }
-
+.eventbtn.second:hover {
+  
+  color: rgb(0, 0, 0); 
+}
 .eventbtn::before,
 .eventbtn::after {
   content: "";
@@ -214,6 +217,7 @@ header {
   height: calc(50% - 5px);
   border: 1px solid var(--border-color);
   transition: all 0.15s ease;
+
 }
 :root {
   --background-color: #ffffff;
@@ -322,8 +326,8 @@ header {
 
 .all-events h1 {
   font-family: "smooch sans";
-  font-weight: 900;
-  font-size: 12rem;
+  font-weight: 800;
+  font-size: 10rem;
   margin-bottom: 100px;
 }
 
@@ -383,6 +387,7 @@ header {
   color: #fff;
   font-family: "oxanium";
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .event-card .button {
@@ -1144,12 +1149,16 @@ footer .contact ul{
   max-height: 0;
   overflow: hidden;
   transition:  max-height ease-in 0.2s;
+ 
   
 }
 
 .faq__answer--active {
   display: block;
   max-height: 100px;
+}
+#faq p{
+  font-size: 2rem;
 }
 
 @media all and (max-width: 750px) {
@@ -1244,6 +1253,9 @@ footer .contact ul{
   .countdown-container {
     padding: 20px;
   }
+  #faq p{
+    font-size: 1.5rem;
+  }
 }
 
 .custom-class {
@@ -1284,8 +1296,8 @@ footer .contact ul{
 
 .about h1{
   font-family: "smooch sans";
-  font-size: 72px;
-  color: #1f2833;
+  font-size: 10rem;
+  color: #000000;
 
 }
 
@@ -1315,13 +1327,25 @@ footer .contact ul{
   display: flex;
   align-items: center;
   gap: 120px;
-  margin: 10px 160px;
+  background:#0f1923;
+  padding:160px 120px 160px;
+  overflow:hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .section-hero img {
-  width: 85%;
+  width: 47%;
+  bottom: 10px;
+  right: 45px;
   height: auto;
+  position: absolute;
 }
+.section-hero .text{
+  width: 50%;
+}
+
 
 .section-hero h1 {
   font-size: 55px;
@@ -1341,6 +1365,11 @@ footer .contact ul{
   color: #ffffff;
   font-family: "oxanium";
   text-align: justify;
+}
+.section-hero .text p{
+  margin-bottom: 10px;
+  line-height: 27px;
+  padding-right: 140px;
 }
 
 .section-hero .text ul {
@@ -1372,6 +1401,7 @@ footer .contact ul{
   justify-content: center;
   gap: 10px;
   margin-bottom: 40px;
+  color: #0f1923;
 
 }
 
@@ -1381,38 +1411,113 @@ footer .contact ul{
 }
 
 .perks-container {
-  display: flex;
+  display: grid;
   justify-content: space-between;
   gap: 20px;
   margin-top: 20px;
   width: 100%;
 }
 
+
 .perk {
-  background-color: #162433;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F8F8F8;
   padding: 20px;
-  border-radius: 8px;
+  border: 1px solid #000;
+  width: 900px;
+  height: 280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.titleSection {
   flex: 1;
-  margin: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
- 
+  color: #1f2833;
+  padding: 30px;
+  
 }
 
-.perk h2 {
-  font-size: 34px;
-  font-family: "smooch sans";
-  color: #ECE8E1;
-  margin-bottom: 20px;
-  text-align: center;
+.title {
+  font-size: 63px;
+  font-family: 'smooch sans';
 }
 
-.perk ul {
-  list-style: disc;
-  margin-left: 20px;
+.investment {
+  display: flex;
+  align-items: center;
   font-size: 16px;
-  line-height: 1.9;
-  text-align: justify;
+  font-weight: 800;
+  color: red;
+  margin-bottom: 20px;
+  font-family: 'oxanium';
 }
+
+.investmentIcon {
+  margin-right: 5px;
+}
+
+.list {
+ 
+  padding-left: 35px;
+  padding-right: 120px;
+  font-size: 14px;
+  color: #1f2833;
+  font-weight: 600;
+}
+.list li{
+  list-style: unset;
+}
+.deliverablesSection {
+  background-color: #FF5E5E;
+  color: white;
+  padding: 20px;
+  position: relative;
+  width: 300px;
+  height: 150px;
+  top: 47%;
+  
+}
+.notched {
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(0 0, calc(100% - 50px) 0, 100% 50px, 100% 100%, 0 100%);
+}
+.notched::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(0, 0, 0); /* Adjust as necessary */
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+  z-index: 1;
+}
+
+.deliverablesTitle {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+.deliverablesList {
+  
+  padding-left: 10px;
+  font-size: 14px;
+}
+.deliverablesList li{
+  list-style: unset;
+}
+.gunImage {
+  position: absolute;
+  right: -16px;
+  top: 12%;
+  transform: translateY(-50%);
+  width: 250px;
+}
+
 .section-sponsorship
 .btndiv {
   
@@ -1421,8 +1526,42 @@ footer .contact ul{
 }
 
 
+.Count{
+  display: grid;
+  padding:40px;
+  gap: 30px;
+  background-color: #F8F8F8;
+  
+  
+}
+.Count h1{
+  justify-self: center;
+  font-size: 40px;
+  font-family: 'smooch sans';
+}
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  
+}
 
+.stat-item {
+  text-align: center;
+}
 
+.stat-item h2 {
+  color: #ff4b58;
+  font-size: 5em;
+  margin: 0;
+}
+
+.stat-item p {
+  color:#ce323f;
+  font-size: 2em;
+  font-family: 'oxanium';
+  margin: 0;
+}
 
 @media (max-width: 768px) {
     
@@ -1432,6 +1571,9 @@ footer .contact ul{
       font-size: 16px;
       
   }
+  .about h1 {
+    font-size: 6rem;
+  }
   .custom-class{
 
     right: 49%;
@@ -1439,25 +1581,40 @@ footer .contact ul{
   .section-hero{
     display: grid;
     justify-content: center;
-    margin: 10px 0px;
+    height: 80vh;
     padding: 15px;
+    
+    align-items: flex-start;
+  }
+  .section-hero .text span{
+    justify-self: center;
+  }
+
+  .section-hero .text{
+    width: auto;
   }
   .section-hero img{
     display: none;
   }
   .section-hero h1 {
-    font-size: 36px;
+    font-size: 5rem;
     font-family: "smooch sans";
     color: #ffffff;
     margin-bottom: 30px;
+    display: grid;
+    justify-content: center;
+
   }
-  .section-hero .text p, .section-hero .text ul {
+  .section-hero .text p{
     font-size: 13px;
     line-height: 1.4;
     color: #ffffff;
     font-family: "oxanium";
     text-align: justify;
+    padding-right: 0;
+    padding: 20px;
   }
+
   .section-hero .btndiv{
     
      justify-content: center;
@@ -1465,7 +1622,7 @@ footer .contact ul{
 
   }
   .section-hero button{
-      font-size: 10px;
+      font-size: 1rem;
   }
   .section-hero .btn__inner{
     padding: 12px 20px;
@@ -1487,26 +1644,7 @@ footer .contact ul{
     padding-left: 0;
   
   }
-  .section-sponsorship {
-    margin: 70px 20px;
-  }
 
-  .perks-container {
-    flex-direction: column;
-  }
-
-  .perk {
-    margin: 10px 0;
-  }
-  .perk ul{
-    margin: 0;
-  }
-  .section-sponsorship button{
-    font-size: 10px;
-}
-  .section-sponsorship .btn__inner{
-  padding: 12px 20px;
-}
 
 
 footer .nav-logo img{
@@ -1564,12 +1702,171 @@ footer .contact{
 footer .Social-icon h1{
   display: none;
 }
+.Count{
+  display: block;
+  text-align: center;
+  background: ECE8E1;
+}
+.Count h1{
+  display: flex;
+ 
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  
+ 
+}
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  
+}
+.stat-item{
+  font-size: 0.7rem;
+}
+.section-sponsorship {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   color: #ffffff;
+  font-family: "oxanium";
+  margin: 0;
+}
+
+.section-sponsorship h1 {
+  font-size: 4.5rem;
+  font-family: "smooch sans";
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #0f1923;
+  text-align: center;
+
+}
+
+.section-sponsorship .span {
+ 
+  color: #ff4655;
+}
+.section-sponsorship button{
+  font-size: 1rem;
+  top: 0;
+  margin-left: 0;
+  margin: 20px;
+}
+.section-sponsorship .btn__inner{
+padding: 12px 20px;
+}
+
+.perks-container {
+  display: grid;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+.perk {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #000;
+  width: 88%;
+  height: 60vh;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.titleSection {
+  flex: 1;
+  color: #1f2833;
+  padding: 0;
+  
+}
+
+.title {
+  font-size: 5rem;
+  font-family: 'smooch sans';
+}
+
+.investment {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: red;
+  margin-bottom: 20px;
+  font-family: 'oxanium';
+}
+
+.investmentIcon {
+  margin-right: 5px;
+}
+
+.list {
+ 
+padding: 0;
+  font-size: 14px;
+  color: #1f2833;
+  font-weight: 600;
+}
+.list li{
+  list-style: unset;
+}
+.deliverablesSection {
+  background-color: #FF5E5E;
+  color: white;
+  padding: 20px;
+  position: relative;
+  width: 245px;
+  height: 125px;
+  top: 20px;
+  right: -50px;
+  
+}
+
+.deliverablesTitle {
+  font-size: 1.4rem;
+  margin: 0 0 5px 0;
+}
+
+.deliverablesList {
+  
+  padding-left: 10px;
+  font-size: 1.2rem;
+  position: relative;
+  z-index: 33;
+}
+.deliverablesList li{
+  list-style: unset;
+}
+.gunImage {
+  position: absolute;
+  right: -3px;
+  top: 12%;
+  transform: translateY(-50%);
+  width: 200px;
+}
+
+.section-sponsorship
+.btndiv {
+  
+  justify-content: center;
+  color: black;
+}
+
+
+
+
 }
 
 @media (max-width: 480px) {
-  .section-hero h1 {
-    font-size: 31px;
-  }
+
   .about {
       font-size: 14px;
       padding: 20px;
@@ -1582,20 +1879,6 @@ footer .Social-icon h1{
 
   }
 
-
-  .section-sponsorship h1 {
-    font-size: 31px;
-    display: contents;
-  }
-
-  .perk h2 {
-    font-size: 24px;
-  }
-
-  .perk ul {
-    font-size: 14px;
-    margin: 0;
-  }
 
 
 }

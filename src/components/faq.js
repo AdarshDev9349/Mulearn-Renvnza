@@ -43,7 +43,7 @@ const FAQ = () => {
               <span className="faq__toggle">{activeIndex === index ? '-' : '+'}</span>
             </div>
             <div className={`faq__answer ${activeIndex === index ? 'faq__answer--active' : ''}`}>
-              <p  style={{fontSize:'1.5rem'}}>{faq.answer}</p>
+              <p>{faq.answer}</p>
             </div>
           </div>
         ))}

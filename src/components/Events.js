@@ -80,7 +80,7 @@ const Events = () => {
 
   return (
     <section className="all-events" id='all-events'>
-      <h1><span>//</span>Events</h1>
+      <h1 style={{display:'flex',justifyContent:'center'}}>Events</h1>
       <div className="main">
         {eventsData.map(event => (
           <div key={event.id} className={`event-card ${event.highlight ? 'highlight' : ''}`}>

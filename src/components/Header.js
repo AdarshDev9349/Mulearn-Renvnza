@@ -19,7 +19,7 @@ const Header = () => {
           <CountdownTimer/>
         </div>
        <div className='btndiv'>
-       <Link to={'/sponsor-us'} style={{color:'none'}}> 
+       <Link to={'/sponsor-us'}> 
        <button className='eventbtn second'>      
         <span class="btn__inner">
         <span class="btn__slide"></span>
