@@ -70,7 +70,7 @@ const Navbarham = () => {
       <ul className={`nav-menu ${menuActive ? 'active' : ''}`}>
       <Link to={'/'}><li className="nav-item"><a href="" className="nav-link">Home</a></li></Link>
         <li className="nav-item"><a href="https://events.renvnza.in/" className="nav-link">More Events</a></li>
-        <li className="nav-item"><a href="" className="nav-link">Contact</a></li>
+        <li className="nav-item"><a href="mailto:mulearnucek@gmail.com" className="nav-link">Contact</a></li>
         <li className="nav-item"><a href="https://www.renvnza.in/" className="nav-link">Renvnza</a></li>
       </ul>
       <div className={`hamburger ${menuActive ? 'active' : ''}`} onClick={toggleMenu}>

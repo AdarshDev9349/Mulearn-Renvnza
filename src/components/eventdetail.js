@@ -2,6 +2,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import image from "./img/poster.png";
+import product from './img/product.png'
 import { Link } from "react-router-dom";
 
 const eventDetails = {
@@ -18,7 +19,7 @@ const eventDetails = {
     title: "Product Designing",
     description:
       "Join the Product Designing Workshop as part of RenVnzA'24, hosted by Mulearn UCEK! Dive into the world of product design and explore the entire product development experience, from framing to ideation and final concepts!",
-    image: image,
+    image: product,
     date: "5/6/2024",
     time: "7.00 PM",
     venue: "Kariavattom",

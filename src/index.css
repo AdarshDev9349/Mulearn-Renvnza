@@ -432,7 +432,7 @@ header {
   bottom: 25px;
   z-index: 1;
   transform: translateX() scale(0.9);
-  background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8a627ec10b57f4f2/5eb7cdc16509f3370a5a93b7/V_AGENTS_587x900_sage.png");
+  background-image: url(" https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf11234f4775729b7/5ebf2c275e73766852c8d5d4/V_AGENTS_587x900_ALL_Sova_2.png");
 }
 
 .main .event-card:nth-child(2) {
@@ -440,14 +440,14 @@ header {
   bottom: 15px;
   z-index: 2;
   transform: translateX() scale(0.95);
-  background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt302fcb2b9628c376/5f7fa6ff8db9ea0f149ece0a/V_AGENTS_587x900_ALL_Skye.png");
+  background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png");
 }
 
 .main .event-card:nth-child(3) {
   left: 5px;
   z-index: 3;
   transform: translateX() scale(1);
-  background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf11234f4775729b7/5ebf2c275e73766852c8d5d4/V_AGENTS_587x900_ALL_Sova_2.png");
+  background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8a627ec10b57f4f2/5eb7cdc16509f3370a5a93b7/V_AGENTS_587x900_sage.png");
 }
 
 .main .event-card:nth-child(4) {
@@ -469,7 +469,7 @@ header {
   bottom: 15px;
   z-index: 2;
   transform: translateX() scale(0.95);
-  background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png");
+  background-image: url(" https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt302fcb2b9628c376/5f7fa6ff8db9ea0f149ece0a/V_AGENTS_587x900_ALL_Skye.png");
 }
 
 .main .event-card:nth-child(7) {
@@ -1344,6 +1344,7 @@ footer .contact ul{
 }
 .section-hero .text{
   width: 50%;
+  text-align: justify;
 }
 
 
@@ -1358,7 +1359,10 @@ footer .contact ul{
 
   color: #ff4655;
 }
-
+.section-hero.eventbtn.second:hover {
+  
+  color: rgb(0, 0, 0); 
+}
 .section-hero .text p, .section-hero .text ul {
   font-size: 16px;
   line-height: 1.5;
@@ -1436,7 +1440,7 @@ footer .contact ul{
    grid-template-columns: repeat(3, 1fr);
    grid-template-rows: repeat(3, 1fr);
    gap:30px 0px; 
-   margin: 130px;
+   margin-bottom: 80px;
    margin-top: 0;
   
 }
@@ -1472,6 +1476,17 @@ footer .contact ul{
 .benefit-div img{
   width: 130px;
   height: 130px;
+}
+.benefit-div.Title:nth-child(10){
+  grid-column: 2;
+}
+
+
+.benefit-div.Silver:nth-child(4){
+  grid-column: 2;
+}
+.benefits-list.Silver{
+  grid-template-rows: none;
 }
 
 
@@ -1694,9 +1709,10 @@ footer .Social-icon h1{
 }
 .benefits-list p{
   padding: 0;
+  font-size: 1.3rem;
 }
 .section-sponsorship h1 {
-  font-size: 3.5rem;
+  font-size: 3.7rem;
   text-align: center;
   font-family: "smooch sans";
   display: flex;
@@ -1751,17 +1767,17 @@ padding: 12px 20px;
   
 }
 
-.title {
-  font-size: 5rem;
+.titleSection .title {
+  font-size: 6rem;
   font-family: 'smooch sans';
 }
 
 .investment {
   display: flex;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: 800;
-  color: red;
+  color:#1f2833;
   margin-bottom: 20px;
   font-family: 'oxanium';
 }
@@ -1769,6 +1785,11 @@ padding: 12px 20px;
 .investmentIcon {
   margin-right: 5px;
 }
+.benefit-div img {
+  width: 100px;
+  height: 100px;
+}
+
 
 .list {
  

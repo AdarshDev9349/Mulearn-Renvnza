@@ -23,12 +23,13 @@ const Partner = () => {
                 <img src={image} alt="Image" className="small-img" /></div>
         
                 <div className="btndiv">
-                    <button className="eventbtn" style={{top:'0',marginTop:'16px'}}>
+                 <a  href="mailto:mulearnucek@gmail.com"> 
+                     <button className="eventbtn second" style={{top:'0',marginTop:'16px'}}>
                         <span className="btn__inner">
                             <span className="btn__slide"></span>
                             <span className="btn__content">Get in Touch with us</span>
                         </span>
-                    </button>
+                    </button></a>  
                 </div>
             </div>
             <img src={image} alt="Image" className="hero-img" />
