@@ -10,25 +10,25 @@ const Events = () => {
 
   const eventsData = [
     {
-      id: 6,
+      id: 'nexus_conclave',
       title: "Nexus Conclave",
       description: "Join Nexus Conclave 2024 to explore HR trends and tech community insights.Network and learn with industry leaders.",
       highlight: false
     },
     {
-      id: 4,
+      id: 'uiux',
       title: "UI/UX Workshop",
       description: "Unleash your creativity and explore the world of user experience and design in our workshop.",
       highlight: false
     },
     {
-      id: 2,
+      id: 'product_designing',
       title: "Product Designing",
       description: "Join the Product Designing Workshop and explore product development from ideation to final concepts!",
       highlight: false
     },
     {
-      id: 1,
+      id: 'dev_expo',
       title: "Dev Expo",
       description: "Join us for Dev-Expo 2024, a grand exhibition where students and professionals from various campuses and industries come together.",
       highlight: true
@@ -40,13 +40,13 @@ const Events = () => {
       highlight: false
     },
     {
-      id: 5,
+      id: '3d_printing',
       title: "3D Printing",
       description: "Join us for an engaging 3D Printing Workshop where you will explore the fundamentals of 3D printing technology.",
       highlight: false
     },
     {
-      id: 7,
+      id: 'pcb_designing',
       title: "PCB Designing",
       description: "Join us for an intensive PCB Designing Workshop where you'll learn to create schematics.",
       highlight: false

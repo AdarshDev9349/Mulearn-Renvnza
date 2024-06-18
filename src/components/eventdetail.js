@@ -5,7 +5,7 @@ import image from "./img/poster.png";
 import { Link } from "react-router-dom";
 
 const eventDetails = {
-  1: {
+  'dev_expo': {
     title: "Dev Expo",
     description:
       "Join us for Dev-Expo 2024, a grand exhibition where students and professionals from various campuses and industries come together to showcase a diverse range of cutting-edge technical frameworks, stacks, and groundbreaking projects. Immerse yourself in the future of technology and discover new insights through the creativity and innovation of the next generation.",
@@ -14,7 +14,7 @@ const eventDetails = {
     time: "10.30 AM",
     venue: "Kariavattom",
   },
-  2: {
+  'product_designing': {
     title: "Product Designing",
     description:
       "Join the Product Designing Workshop as part of RenVnzA'24, hosted by Mulearn UCEK! Dive into the world of product design and explore the entire product development experience, from framing to ideation and final concepts!",
@@ -32,7 +32,7 @@ const eventDetails = {
     time: "9.00 AM",
     venue: "Kariavattom",
   },
-  4: {
+ 'uiux': {
     title: "UI/UX Workshop",
     description:
       "Unleash your creativity and explore the world of user experience and design in our workshop, hosted by Mulearn UCEK! Dive into the principles of user-centered design, learn wireframing techniques, and master the art of prototyping tools. Whether you're a budding designer or looking to enhance your skills, this workshop offers a unique opportunity to refine your digital journey as part of RenVnzA'24.",
@@ -41,7 +41,7 @@ const eventDetails = {
     time: "6.00 AM",
     venue: "Kariavattom",
   },
-  5: {
+  '3d_printing': {
     title: "3D Printing Workshop",
     description:
       "Join us for an engaging 3D Printing Workshop where you will explore the fundamentals of 3D printing technology. This workshop covers essential concepts, from designing 3D models to operating 3D printers. Gain hands-on experience with industry-standard software and hardware, and learn best practices for successful 3D prints. Whether you're a beginner or seeking to enhance your skills, this workshop will provide the insights and techniques needed to turn your creative ideas into physical objects. Take advantage of this opportunity to delve into the exciting world of 3D printing and elevate your design capabilities!",
@@ -50,7 +50,7 @@ const eventDetails = {
     time: "11.00 AM",
     venue: "Kariavattom",
   },
-  6: {
+  'nexus_conclave': {
     title: "Nexus Conclave",
     description:
       "Welcome to the Nexus Conclave 2024 at RenVnza, a premier event dedicated to addressing the latest trends, challenges, and innovations in human resources. This year’s theme, Navigating the Future of Work , focuses on equipping HR professionals on various industries ,and talks by the mentors of tech communities bringing out insights how tech communities bring out a great impact on converting a campus into a dynamic and evolving workplace landscape. This conclave offers a unique opportunity to network, learn, and grow with the best in the field.",
@@ -59,7 +59,7 @@ const eventDetails = {
     time: "1.00 PM",
     venue: "Kariavattom",
   },
-  7: {
+  'pcb_designing': {
     title: "PCB Designing",
     description:
       "Join us for an intensive PCB Designing Workshop where you'll learn to create schematics and develop your first fabricated PCB board. This hands-on session covers essential design principles, ideation steps, and best practices for PCB development. Gain practical experience in electronic design automation (EDA) tools and understand the complete workflow from concept to fabrication. Whether you're a beginner or looking to refine your skills, this workshop will equip you with the knowledge and confidence to bring your electronic projects to life.",
