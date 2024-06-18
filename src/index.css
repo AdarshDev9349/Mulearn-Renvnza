@@ -1776,10 +1776,11 @@ padding: 12px 20px;
   padding: 20px;
   border: 1px solid #000;
   width: 88%;
-  height: 60vh;
+  height: auto;
   margin: 0 auto;
   box-sizing: border-box;
   overflow: hidden;
+  gap: 20px;
 }
 
 .titleSection {
