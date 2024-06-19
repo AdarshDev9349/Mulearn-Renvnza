@@ -1187,7 +1187,7 @@ footer .contact ul{
     font-weight: bolder;
   }
   .event-info ul {
-    font-size: 16px;
+    font-size: 13px;
     margin-left: 18px;
   }
   .event-info .eventbtn {
@@ -1444,6 +1444,7 @@ footer .contact ul{
    margin-top: 0;
   
 }
+
 
 .benefit-icon {
   width: 20px;

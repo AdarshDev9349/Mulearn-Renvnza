@@ -21,8 +21,8 @@ const eventDetails = {
     description:
       "Join the Product Designing Workshop as part of RenVnzA'24, hosted by Mulearn UCEK! Dive into the world of product design and explore the entire product development experience, from framing to ideation and final concepts!",
     image: product,
-    date: "5/6/2024",
-    time: "7.00 PM",
+    date: "3/6/2024",
+    time: "9.30 AM",
     venue: "Kariavattom",
     link:"https://airtable.com/app0ast9KLzNwkPSe/shrzvxbBwGTJ0bbd5",
   },
@@ -33,16 +33,16 @@ const eventDetails = {
     image: image,
     date: "29/6/2024",
     time: "9.00 AM",
-    venue: "Kariavattom",
+    venue: "University College of Engineering,Kariavattom",
   },
   uiux: {
     title: "UI/UX Workshop",
     description:
       "Unleash your creativity and explore the world of user experience and design in our workshop, hosted by Mulearn UCEK! Dive into the principles of user-centered design, learn wireframing techniques, and master the art of prototyping tools. Whether you're a budding designer or looking to enhance your skills, this workshop offers a unique opportunity to refine your digital journey as part of RenVnzA'24.",
     image: uiux,
-    date: "15/6/2024",
-    time: "6.00 AM",
-    venue: "Kariavattom",
+    date: "4/07/2024",
+    time: "9.45 AM",
+    venue: "University College of Engineering,Kariavattom",
     link: "https://airtable.com/app0ast9KLzNwkPSe/shrn7ufgJ7rFbyXiS",
   },
   "3d_printing": {
@@ -52,7 +52,7 @@ const eventDetails = {
     image: image,
     date: "20/6/2024",
     time: "11.00 AM",
-    venue: "Kariavattom",
+    venue: "University College of Engineering,Kariavattom",
   },
   nexus_conclave: {
     title: "Nexus Conclave",
@@ -61,7 +61,7 @@ const eventDetails = {
     image: image,
     date: "04/07/2024",
     time: "10.00 AM",
-    venue: "EMS Hall, University of Kerala campus , Kariavattom",
+    venue: "University College of Engineering,Kariavattom",
   },
   pcb_designing: {
     title: "PCB Designing",
@@ -70,7 +70,7 @@ const eventDetails = {
     image: image,
     date: "30/6/2024",
     time: "3.00 PM",
-    venue: "Kariavattom",
+    venue: "University College of Engineering,Kariavattom",
   },
 };
 
@@ -122,6 +122,7 @@ const EventDetail = () => {
             <li>TIME: {event.time}</li>
             <li>VENUE: {event.venue}</li>
           </ul>
+
           <div className="btndiv" style={{ justifyContent: "center" }}>
             <a href={event.link}>
               {" "}

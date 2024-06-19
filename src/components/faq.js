@@ -28,6 +28,10 @@ const FAQ = () => {
     {
       "question": "Will I get certificates for taking part in the events?",
       "answer": "Yes, certificates will be provided for all the sessions hosted during the fest."
+    },
+    {
+      "question":"Will we be awarded KTU points for participating?",
+      "answer":"Absolutely! Participants will be awarded 20 KTU points upon completion of the event. Additionally, you'll receive certificates on the spot right after the event concludes, along with some exclusive cool merchandise."
     }
    
   ];
