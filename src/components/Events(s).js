@@ -21,13 +21,13 @@ const SmallEvents = () => {
       id: 'uiux',
       title: "UI/UX Workshop",
       description: "Unleash your creativity and explore the world of user experience and design in our workshop.",
-      imageUrl: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt53405c26141beff8/5f21fda671ec397ef9bf0894/V_AGENTS_587x900_KillJoy_.png"
+      imageUrl:"https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png"
     },
     {
       id: 'product_designing',
       title: "Product Designing",
       description: "Join the Product Designing Workshop and explore product development from ideation to final concepts!",
-      imageUrl: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd4080f8efb365751/5ff5660bb47cdf7fc7d6c3dc/V_AGENTS_587x900_yoru.png"
+      imageUrl: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8a627ec10b57f4f2/5eb7cdc16509f3370a5a93b7/V_AGENTS_587x900_sage.png" 
     },
     {
       id: 'dev_expo',
@@ -39,7 +39,7 @@ const SmallEvents = () => {
       id: 3,
       title: "Grand Quest Auto",
       description: "Join us for an exciting tech tournament featuring top players from around the world.",
-      imageUrl: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png"
+      imageUrl:  "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt53405c26141beff8/5f21fda671ec397ef9bf0894/V_AGENTS_587x900_KillJoy_.png"
     },
     {
       id: '3d_printing',
@@ -51,7 +51,7 @@ const SmallEvents = () => {
       id: 'pcb_designing',
       title: "PCB Designing",
       description: "Join us for an intensive PCB Designing Workshop where you'll learn to create schematics.",
-      imageUrl: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8a627ec10b57f4f2/5eb7cdc16509f3370a5a93b7/V_AGENTS_587x900_sage.png"
+      imageUrl: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd4080f8efb365751/5ff5660bb47cdf7fc7d6c3dc/V_AGENTS_587x900_yoru.png"
     }
   ];
 

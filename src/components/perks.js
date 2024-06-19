@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useRef } from 'react';
+import { motion, useInView } from 'framer-motion';
 import name from './icons/name.png';
 import stalls from './icons/stalls.png';
 import vip from './icons/vip.png';
@@ -61,32 +61,41 @@ const SponsorshipPerks = () => {
         <h1>Discover Your Sponsorship Perks</h1>
         <div className="perks-container">
           {sponsors.map((sponsor, index) => (
-            <div className="perk notched" key={index}>
-              <div className="titleSection">
-                <h2 className="title">{sponsor.title}</h2>
-                <div className="investment">
-                  <span>Investment: {sponsor.investment}</span>
-                </div>
-                <div className={`benefits-list ${sponsor.title}`}>
-                  {sponsor.benefits.map((benefit, i) => (
-                    <motion.div
-                      className={`benefit-div ${sponsor.title}`}
-                      key={i}
-                      initial={{ opacity: 0, scale: 0.5 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      transition={{
-                        duration: 0.8,
-                        delay: 1 + i * 0.2, // stagger animation
-                        ease: [0, 0.71, 0.2, 1.01]
-                      }}
-                    >
-                      <img src={benefit.icon} alt="" className="benefit-icon" />
-                      <p>{benefit.text}</p>
-                    </motion.div>
-                  ))}
-                </div>
-              </div>
-            </div>
+            <SponsorPerks key={index} sponsor={sponsor} />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const SponsorPerks = ({ sponsor }) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
+  return (
+    <div className="perk notched">
+      <div className="titleSection">
+        <h2 className="title">{sponsor.title}</h2>
+        <div className="investment">
+          <span>Investment: {sponsor.investment}</span>
+        </div>
+        <div className={`benefits-list ${sponsor.title}`} ref={ref}>
+          {sponsor.benefits.map((benefit, i) => (
+            <motion.div
+              className={`benefit-div ${sponsor.title}`}
+              key={i}
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={isInView ? { opacity: 1, scale: 1 } : {}}
+              transition={{
+                duration: 0.8,
+                delay: 1 + i * 0.2, // stagger animation
+                ease: [0, 0.71, 0.2, 1.01]
+              }}
+            >
+              <img src={benefit.icon} alt="" className="benefit-icon" />
+              <p>{benefit.text}</p>
+            </motion.div>
           ))}
         </div>
       </div>

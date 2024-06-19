@@ -3,6 +3,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import image from "./img/poster.png";
 import product from './img/product.png'
+import uiux from './img/uiux.png'
 import { Link } from "react-router-dom";
 
 const eventDetails = {
@@ -37,7 +38,7 @@ const eventDetails = {
     title: "UI/UX Workshop",
     description:
       "Unleash your creativity and explore the world of user experience and design in our workshop, hosted by Mulearn UCEK! Dive into the principles of user-centered design, learn wireframing techniques, and master the art of prototyping tools. Whether you're a budding designer or looking to enhance your skills, this workshop offers a unique opportunity to refine your digital journey as part of RenVnzA'24.",
-    image: image,
+    image: uiux,
     date: "15/6/2024",
     time: "6.00 AM",
     venue: "Kariavattom",
