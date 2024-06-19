@@ -1,4 +1,3 @@
-// src/Loading.js
 import React from 'react';
 import { grid } from 'ldrs'
 grid.register()
