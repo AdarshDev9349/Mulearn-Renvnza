@@ -8,7 +8,7 @@ const Partner = () => {
            
             <div className="text">
                 <h1>
-                    Why Partner with <span className='span'>MuLearn ucek?</span>
+                    Why Partner with <span className='span'>MuLearn UCEK?</span>
                 </h1>
                 <p>
                 MuLearn UCEK, supported by G TECH and over 250 multinational companies, offers an unparalleled platform for events and opportunities.  As a part of Mulearn foundation we are  to provide top-notch resources and opportunities for our students, fostering innovation, skill development, and career advancement.

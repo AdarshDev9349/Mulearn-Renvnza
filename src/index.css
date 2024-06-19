@@ -1266,6 +1266,7 @@ footer .contact ul{
   cursor: pointer;
   animation: stb 1s ease-in-out infinite;
   height: 35px;
+  top: 100vh;
 
 }
 /* Example animation */
