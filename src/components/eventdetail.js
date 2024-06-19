@@ -19,7 +19,7 @@ const eventDetails = {
   product_designing: {
     title: "Product Designing",
     description:
-      "Join the Product Designing Workshop as part of RenVnzA'24, hosted by Mulearn UCEK! Dive into the world of product design and explore the entire product development experience, from framing to ideation and final concepts!",
+      "Join us at TechFest for an exciting and insightful Product Design Workshop hosted by MULEARN UCEK in collaboration with UXSHOTS.This workshop offers you a unique opportunity to dive deep into the world of product development and design.Whether you're a budding designer, a tech enthusiast, or a professional looking to expand your skill set, this workshop is tailored for you. Learn from industry experts, engage in hands-on activities, and gain valuable insights into the intricacies of product design.",
     image: product,
     date: "3/6/2024",
     time: "9.30 AM",
@@ -38,7 +38,7 @@ const eventDetails = {
   uiux: {
     title: "UI/UX Workshop",
     description:
-      "Unleash your creativity and explore the world of user experience and design in our workshop, hosted by Mulearn UCEK! Dive into the principles of user-centered design, learn wireframing techniques, and master the art of prototyping tools. Whether you're a budding designer or looking to enhance your skills, this workshop offers a unique opportunity to refine your digital journey as part of RenVnzA'24.",
+      "Join us for an immersive UI/UX workshop to elevate your design skills with the power of emotional design!Learn how to evoke emotions through color, typography, and micro-interactions, and discover techniques for creating personalized, meaningful user experiences. This hands-on event features engaging activities, interactive lectures, and real-world case studies.Don't miss the chance to transform your design approach and create more user-centric products. Register now to secure your spot and advance your UI/UX skills! ",
     image: uiux,
     date: "4/07/2024",
     time: "9.45 AM",
