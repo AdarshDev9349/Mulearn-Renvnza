@@ -12,9 +12,9 @@ const eventDetails = {
     description:
       "Join us for Dev-Expo 2024, a grand exhibition where students and professionals from various campuses and industries come together to showcase a diverse range of cutting-edge technical frameworks, stacks, and groundbreaking projects. Immerse yourself in the future of technology and discover new insights through the creativity and innovation of the next generation.",
     image: image,
-    date: "3/6/2024",
-    time: "10.30 AM",
-    venue: "Kariavattom",
+    date: "Soon",
+    time: "Soon",
+    venue: "University College of Engineering,Kariavattom",
   },
   product_designing: {
     title: "Product Designing",
@@ -23,7 +23,7 @@ const eventDetails = {
     image: product,
     date: "3/6/2024",
     time: "9.30 AM",
-    venue: "Kariavattom",
+    venue: "University College of Engineering,Kariavattom",
     link:"https://airtable.com/app0ast9KLzNwkPSe/shrzvxbBwGTJ0bbd5",
   },
   3: {
@@ -31,8 +31,8 @@ const eventDetails = {
     description:
       "GQA is aiming to be South India's Largest Techno Treasure Hunt.GQA is more than just a treasure hunt—it's a challenging event meant to push your tech skills to the limit. GQA features various tech challenges in areas like coding, cybersecurity, and data analysis. Participants must use their knowledge, ingenuity, and problem-solving abilities to succeed.Held on a large 350-acre campus, the tasks mimic real-life situations to provide practical experience. Unlike typical games, GQA needs practical skills and creativity.",
     image: image,
-    date: "29/6/2024",
-    time: "9.00 AM",
+    date: "Soon",
+    time: "Soon",
     venue: "University College of Engineering,Kariavattom",
   },
   uiux: {
@@ -50,8 +50,8 @@ const eventDetails = {
     description:
       "Join us for an engaging 3D Printing Workshop where you will explore the fundamentals of 3D printing technology. This workshop covers essential concepts, from designing 3D models to operating 3D printers. Gain hands-on experience with industry-standard software and hardware, and learn best practices for successful 3D prints. Whether you're a beginner or seeking to enhance your skills, this workshop will provide the insights and techniques needed to turn your creative ideas into physical objects. Take advantage of this opportunity to delve into the exciting world of 3D printing and elevate your design capabilities!",
     image: image,
-    date: "20/6/2024",
-    time: "11.00 AM",
+    date: "Soon",
+    time: "Soon",
     venue: "University College of Engineering,Kariavattom",
   },
   nexus_conclave: {
@@ -59,8 +59,8 @@ const eventDetails = {
     description:
       "Welcome to the Nexus Conclave 2024 at RenVnza, a premier event dedicated to addressing the latest trends, challenges, and innovations in human resources. This year’s theme, Navigating the Future of Work , focuses on equipping HR professionals on various industries ,and talks by the mentors of tech communities bringing out insights how tech communities bring out a great impact on converting a campus into a dynamic and evolving workplace landscape. This conclave offers a unique opportunity to network, learn, and grow with the best in the field.",
     image: image,
-    date: "04/07/2024",
-    time: "10.00 AM",
+    date: "Soon",
+    time: "Soon",
     venue: "University College of Engineering,Kariavattom",
   },
   pcb_designing: {
@@ -68,8 +68,8 @@ const eventDetails = {
     description:
       "Join us for an intensive PCB Designing Workshop where you'll learn to create schematics and develop your first fabricated PCB board. This hands-on session covers essential design principles, ideation steps, and best practices for PCB development. Gain practical experience in electronic design automation (EDA) tools and understand the complete workflow from concept to fabrication. Whether you're a beginner or looking to refine your skills, this workshop will equip you with the knowledge and confidence to bring your electronic projects to life.",
     image: image,
-    date: "30/6/2024",
-    time: "3.00 PM",
+    date: "Soon",
+    time: "Soon",
     venue: "University College of Engineering,Kariavattom",
   },
 };
