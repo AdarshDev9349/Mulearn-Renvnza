@@ -24,6 +24,7 @@ const eventDetails = {
     date: "5/6/2024",
     time: "7.00 PM",
     venue: "Kariavattom",
+    link:"https://airtable.com/app0ast9KLzNwkPSe/shrzvxbBwGTJ0bbd5",
   },
   3: {
     title: "Grand Quest Auto",
