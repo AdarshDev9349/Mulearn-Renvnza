@@ -6,7 +6,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+import { EffectCoverflow, Pagination, Navigation,Autoplay } from 'swiper/modules';
 
 const SmallEvents = () => {
   // Define the JSON data within the component
@@ -71,6 +71,7 @@ const SmallEvents = () => {
             depth: 100,
             modifier: 2.5,
           }}
+      
           pagination={{ el: '.swiper-pagination', clickable: true }}
           navigation={{
             nextEl: '.swiper-button-next',
