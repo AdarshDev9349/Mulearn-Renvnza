@@ -2,7 +2,8 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import image from "./img/poster.png";
 import product from "./img/product.webp";
-
+import pcb from "./img/pcb.webp";
+import threeD from "./img/3d.webp";
 import { Link } from "react-router-dom";
 
 const eventDetails = {
@@ -50,7 +51,7 @@ const eventDetails = {
     title: "3D Printing Workshop",
     description:
       "Attend an engaging 3D Printing Workshop where you'll delve into the fundamentals of this transformative technology. Day 1 introduces Fab Labs and Mini Fab Labs in our country, and covers 3D designing using software like Rhino. Day 2 offers hands-on training with industry-standard 3D printers, enabling you to bring your designs to life. Don't miss this chance to explore the exciting world of 3D printing and enhance your design capabilities! Please note, no food will be provided.",
-    image: image,
+    image: threeD,
     date: "01-02 July 2024",
     time: "10.00 AM",
     venue: "Fab Lab Trivandrum",
@@ -69,7 +70,7 @@ const eventDetails = {
     title: "PCB Designing",
     description:
       "Discover an intensive PCB Designing Workshop where you'll learn to create schematics and develop your first PCB board. This hands-on session covers essential design principles, ideation steps, and best practices for PCB development. Gain practical experience in EDA tools and understand the workflow from concept to fabrication. Perfect for beginners and those looking to refine their skills.Please note, no food will be provided.",
-    image: image,
+    image: pcb,
     date: "04-05 July 2024",
     time: "10.00 AM",
     venue: "Fab Lab Trivandrum",
