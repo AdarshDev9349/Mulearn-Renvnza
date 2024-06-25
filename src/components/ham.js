@@ -49,10 +49,10 @@ function useMenuAnimation(isOpen) {
 }
 
 const Navbarham = () => {
-  // State to manage the active class
+
   const [menuActive, setMenuActive] = useState(false);
 
-  // Function to toggle the active class
+
   const toggleMenu = () => {
     setMenuActive(!menuActive);
   };

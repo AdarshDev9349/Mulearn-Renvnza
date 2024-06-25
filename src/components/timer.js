@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
- // You can create your own CSS file for styling
+
 
 function CountdownTimer() {
-  const countdownDate = new Date('07/03/2024'); // Set your desired end date and time
+  const countdownDate = new Date('07/03/2024'); 
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,

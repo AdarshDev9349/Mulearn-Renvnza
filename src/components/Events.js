@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import SmallEvents from './Events(s)'; // Import the new component
+import SmallEvents from './Events(s)';
 import { Link } from 'react-router-dom';
 
 const Events = () => {
   
   const [isSmallScreen, setIsSmallScreen] = useState(false);
-  const location = useLocation(); // Get the current location
+  const location = useLocation(); 
 
   const eventsData = [
     {
@@ -34,8 +34,8 @@ const Events = () => {
       highlight: true
     },
     {
-      id: 3,
-      title: "Grand Quest Auto",
+      id: 'Gamedev',
+      title: "Game Development",
       description: "Join us for an exciting tech tournament featuring top players from around the world.",
       highlight: false
     },
@@ -51,6 +51,7 @@ const Events = () => {
       description: "Join us for an intensive PCB Designing Workshop where you'll learn to create schematics.",
       highlight: false
     },
+
     
   ];
 
@@ -61,7 +62,7 @@ const Events = () => {
 
     window.addEventListener('resize', handleResize);
 
-    // Initial check
+  
     handleResize();
 
     return () => {
@@ -69,7 +70,7 @@ const Events = () => {
     };
   }, []);
 
-  // Effect to scroll to the top when the location changes
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);

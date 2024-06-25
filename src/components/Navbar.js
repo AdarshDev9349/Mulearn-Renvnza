@@ -15,7 +15,7 @@ const Navbar = () => {
 
     window.addEventListener('resize', handleResize);
 
-    // Initial check
+
     handleResize();
 
     return () => {

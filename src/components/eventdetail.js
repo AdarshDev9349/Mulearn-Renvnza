@@ -1,4 +1,4 @@
-// src/components/EventDetail.js
+
 import React from "react";
 import { useParams } from "react-router-dom";
 import image from "./img/poster.png";
@@ -26,10 +26,10 @@ const eventDetails = {
     venue: "University College of Engineering,Kariavattom",
     link:"https://airtable.com/app0ast9KLzNwkPSe/shrzvxbBwGTJ0bbd5",
   },
-  3: {
-    title: "Grand Quest Auto",
+  Gamedev: {
+    title: "Game Development",
     description:
-      "GQA is aiming to be South India's Largest Techno Treasure Hunt.GQA is more than just a treasure hunt—it's a challenging event meant to push your tech skills to the limit. GQA features various tech challenges in areas like coding, cybersecurity, and data analysis. Participants must use their knowledge, ingenuity, and problem-solving abilities to succeed.Held on a large 350-acre campus, the tasks mimic real-life situations to provide practical experience. Unlike typical games, GQA needs practical skills and creativity.",
+      "We are thrilled to announce our upcoming game development workshop in collaboration with TILTEDU, a leading institution in immersive and interactive technology education. This workshop is designed for aspiring game developers, tech enthusiasts, and anyone looking to break into the exciting world of game development.",
     image: image,
     date: "Soon",
     time: "Soon",
@@ -72,6 +72,7 @@ const eventDetails = {
     time: "Soon",
     venue: "University College of Engineering,Kariavattom",
   },
+  
 };
 
 const EventDetail = () => {

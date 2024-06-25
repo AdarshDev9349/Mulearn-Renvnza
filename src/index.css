@@ -24,7 +24,7 @@ html {
 body {
   width: 100vw;
   background-color: #fafaf9;
-  background-image: url("https://strong-goose.static.domains/img/bg.png");
+  background-image: url("./components/img/bg.png");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -120,6 +120,7 @@ header {
   width: 100%;
   height: 100%;
   z-index: -2;
+
   background-color: #0f1923;
 }
 

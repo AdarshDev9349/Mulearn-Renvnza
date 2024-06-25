@@ -1,4 +1,4 @@
-// src/App.js
+
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -7,7 +7,7 @@ import Events from './components/Events';
 import MoreEvents from './components/Playnow';
 import Footer from './components/Footer';
 import EventDetails from './components/eventdetail';
-import Loading from './components/Loading'; // Import the Loading component
+import Loading from './components/Loading';
 import './index.css';
 import ScrollToTop  from './components/scroll';
 import FAQ from './components/faq';
@@ -18,10 +18,10 @@ function App() {
   const [loading, setLoading] = useState(true);
  
   useEffect(() => {
-    // Simulate a delay to show the loading spinner
+    
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2000); // Adjust the time as needed
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
