@@ -2,7 +2,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import image from "./img/poster.png";
-import product from "./img/product.jpg";
+import product from "./img/product.webp";
 
 import { Link } from "react-router-dom";
 
@@ -19,8 +19,9 @@ const eventDetails = {
   product_designing: {
     title: "Product Designing",
     description:
-      "Join us at TechFest for an exciting and insightful Product Design Workshop hosted by MULEARN UCEK in collaboration with UXSHOTS.This workshop offers you a unique opportunity to dive deep into the world of product development and design.Whether you're a budding designer, a tech enthusiast, or a professional looking to expand your skill set, this workshop is tailored for you. Learn from industry experts, engage in hands-on activities, and gain valuable insights into the intricacies of product design.",
+      "Experience an exciting Product Design Workshop at TechFest in collaboration with UX SHOTS. Explore product development and design with hands-on activities and insights from industry experts. Perfect for budding designers, tech enthusiasts, and professionals.",
     image: product,
+    note:" Don't miss out this opportunity and register now! Plus, free registration is available for anyone with over 10,000 karma points!",
     date: "3/07/2024",
     time: "9.30 AM",
     venue: "University College of Engineering,Kariavattom",
@@ -118,6 +119,10 @@ const EventDetail = () => {
             <b>ABOUT : </b>
             {event.description}
           </p>
+          <p>
+            {event.note}
+          </p>
+
           <ul>
             <li>DATE: {event.date}</li>
             <li>TIME: {event.time}</li>
