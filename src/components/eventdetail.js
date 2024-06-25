@@ -2,8 +2,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import image from "./img/poster.png";
-import product from "./img/product.png";
-import uiux from "./img/uiux.png";
+import product from "./img/product.jpg";
+
 import { Link } from "react-router-dom";
 
 const eventDetails = {
