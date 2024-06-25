@@ -20,7 +20,7 @@ const SmallEvents = () => {
     {
       id: 'uiux',
       title: "UI/UX Workshop",
-      description: "Unleash your creativity and explore the world of user experience and design in our workshop.",
+      description: "Join us to Unleash your creativity and explore the world of user experience and design in our workshop.",
       imageUrl:"https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png"
     },
     {
@@ -30,7 +30,7 @@ const SmallEvents = () => {
       imageUrl: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8a627ec10b57f4f2/5eb7cdc16509f3370a5a93b7/V_AGENTS_587x900_sage.png" 
     },
     {
-      id: 'dev_expo',
+      id: 'laser_engraving',
       title: "Dev Expo",
       description: "Join us for Dev-Expo 2024, a grand exhibition where students and professionals from various campuses and industries come together.",
       imageUrl: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc825c6589eda7717/5eb7cdc6ee88132a6f6cfc25/V_AGENTS_587x900_Viper.png"
@@ -38,7 +38,7 @@ const SmallEvents = () => {
     {
       id: 'Gamedev',
       title: "Game Development",
-      description: "Join us for an exciting tech tournament featuring top players from around the world.",
+      description: "Join us for our upcoming game development workshop in collaboration with TILTEDU...",
       imageUrl:  "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt53405c26141beff8/5f21fda671ec397ef9bf0894/V_AGENTS_587x900_KillJoy_.png"
     },
     {

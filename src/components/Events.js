@@ -28,15 +28,15 @@ const Events = () => {
       highlight: false
     },
     {
-      id: 'dev_expo',
-      title: "Dev Expo",
+      id: 'laser_engraving',
+      title: "Laser Engrvaing",
       description: "Join us for Dev-Expo 2024, a grand exhibition where students and professionals from various campuses and industries come together.",
       highlight: true
     },
     {
       id: 'Gamedev',
       title: "Game Development",
-      description: "Join us for an exciting tech tournament featuring top players from around the world.",
+      description: "We are thrilled to announce our upcoming game development workshop in collaboration with TILTEDU...",
       highlight: false
     },
     {

@@ -7,13 +7,13 @@ import uiux from "./img/uiux.png";
 import { Link } from "react-router-dom";
 
 const eventDetails = {
-  dev_expo: {
-    title: "Dev Expo",
+  laser_engraving: {
+    title: "Laser Engraving",
     description:
-      "Join us for Dev-Expo 2024, a grand exhibition where students and professionals from various campuses and industries come together to showcase a diverse range of cutting-edge technical frameworks, stacks, and groundbreaking projects. Immerse yourself in the future of technology and discover new insights through the creativity and innovation of the next generation.",
+      "Join us for an exciting hands-on workshop where you'll learn the fundamentals of 2D designing and fabrication using a laser cutter. This workshop is designed for beginners and enthusiasts who are keen to explore the creative and technical aspects of laser cutting technology. Whether you're a hobbyist, a designer, or simply curious about digital fabrication, this workshop will equip you with the skills and knowledge to bring your ideas to life.",
     image: image,
-    date: "Soon",
-    time: "Soon",
+    date: "3/07/2024",
+    time: "10.00 AM",
     venue: "University College of Engineering,Kariavattom",
   },
   product_designing: {
@@ -21,7 +21,7 @@ const eventDetails = {
     description:
       "Join us at TechFest for an exciting and insightful Product Design Workshop hosted by MULEARN UCEK in collaboration with UXSHOTS.This workshop offers you a unique opportunity to dive deep into the world of product development and design.Whether you're a budding designer, a tech enthusiast, or a professional looking to expand your skill set, this workshop is tailored for you. Learn from industry experts, engage in hands-on activities, and gain valuable insights into the intricacies of product design.",
     image: product,
-    date: "3/6/2024",
+    date: "3/07/2024",
     time: "9.30 AM",
     venue: "University College of Engineering,Kariavattom",
     link:"https://airtable.com/app0ast9KLzNwkPSe/shrzvxbBwGTJ0bbd5",
@@ -50,8 +50,8 @@ const eventDetails = {
     description:
       "Join us for an engaging 3D Printing Workshop where you will explore the fundamentals of 3D printing technology. This workshop covers essential concepts, from designing 3D models to operating 3D printers. Gain hands-on experience with industry-standard software and hardware, and learn best practices for successful 3D prints. Whether you're a beginner or seeking to enhance your skills, this workshop will provide the insights and techniques needed to turn your creative ideas into physical objects. Take advantage of this opportunity to delve into the exciting world of 3D printing and elevate your design capabilities!",
     image: image,
-    date: "Soon",
-    time: "Soon",
+    date: "01-02 July 2024",
+    time: "10.00 AM",
     venue: "University College of Engineering,Kariavattom",
   },
   nexus_conclave: {
@@ -68,8 +68,8 @@ const eventDetails = {
     description:
       "Join us for an intensive PCB Designing Workshop where you'll learn to create schematics and develop your first fabricated PCB board. This hands-on session covers essential design principles, ideation steps, and best practices for PCB development. Gain practical experience in electronic design automation (EDA) tools and understand the complete workflow from concept to fabrication. Whether you're a beginner or looking to refine your skills, this workshop will equip you with the knowledge and confidence to bring your electronic projects to life.",
     image: image,
-    date: "Soon",
-    time: "Soon",
+    date: "04-05 July 2024",
+    time: "10.00 AM",
     venue: "University College of Engineering,Kariavattom",
   },
   
