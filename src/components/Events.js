@@ -18,7 +18,7 @@ const Events = () => {
     {
       id: 'uiux',
       title: "UI/UX Workshop",
-      description: "Unleash your creativity and explore the world of user experience and design in our workshop.",
+      description: "Join us to unleash your creativity and explore the world of user experience and design in our workshop.",
       highlight: false
     },
     {
@@ -30,13 +30,13 @@ const Events = () => {
     {
       id: 'laser_engraving',
       title: "Laser Engrvaing",
-      description: "Join us for Dev-Expo 2024, a grand exhibition where students and professionals from various campuses and industries come together.",
+      description: "Join us for a hands-on workshop and discover how laser cutting technology can help you turn your creative ideas into reality! ",
       highlight: true
     },
     {
       id: 'Gamedev',
       title: "Game Development",
-      description: "We are thrilled to announce our upcoming game development workshop in collaboration with TILTEDU...",
+      description: "Join us for our upcoming game development workshop in collaboration with TILTEDU...",
       highlight: false
     },
     {

@@ -20,7 +20,7 @@ const SmallEvents = () => {
     {
       id: 'uiux',
       title: "UI/UX Workshop",
-      description: "Join us to Unleash your creativity and explore the world of user experience and design in our workshop.",
+      description: "Join us to unleash your creativity and explore the world of user experience and design in our workshop.",
       imageUrl:"https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png"
     },
     {
@@ -31,7 +31,7 @@ const SmallEvents = () => {
     },
     {
       id: 'laser_engraving',
-      title: "Dev Expo",
+      title: "Laser Engraving",
       description: "Join us for Dev-Expo 2024, a grand exhibition where students and professionals from various campuses and industries come together.",
       imageUrl: "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc825c6589eda7717/5eb7cdc6ee88132a6f6cfc25/V_AGENTS_587x900_Viper.png"
     },
