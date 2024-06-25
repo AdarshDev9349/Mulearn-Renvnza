@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useParams } from "react-router-dom";
 import image from "./img/poster.png";
@@ -12,7 +11,7 @@ const eventDetails = {
     description:
       "Explore a 5-hour hands-on workshop focusing on the fundamentals of 2D designing and fabrication using a laser cutter. Ideal for beginners and enthusiasts, this workshop covers both the creative and technical aspects of laser cutting technology. Whether you're a hobbyist, designer, or simply curious about digital fabrication, you'll gain practical skills in software like Inkscape and hands-on experience with laser cutting machines. By the end of the workshop, you'll have the knowledge and skills to create and fabricate your own projects using 2D design techniques.Please note, no food will be provided.",
     image: image,
-    note:"",
+    note: "",
     date: "3/07/2024",
     time: "10.00 AM",
     venue: "Fab Lab Trivandrum",
@@ -22,11 +21,11 @@ const eventDetails = {
     description:
       "Experience an exciting Product Design Workshop at Renvnza in collaboration with UX SHOTS. Explore product development and design with hands-on activities and insights from industry experts. Perfect for budding designers, tech enthusiasts, and professionals.",
     image: product,
-    note:" Don't miss out this opportunity and register now! Plus, free registration is available for anyone with over 10,000 karma points!",
+    note: " Don't miss out this opportunity and register now! Plus, free registration is available for anyone with over 10,000 karma points!",
     date: "3/07/2024",
     time: "9.30 AM",
     venue: "University College of Engineering,Kariavattom",
-    link:"https://airtable.com/app0ast9KLzNwkPSe/shrzvxbBwGTJ0bbd5",
+    link: "https://airtable.com/app0ast9KLzNwkPSe/shrzvxbBwGTJ0bbd5",
   },
   Gamedev: {
     title: "Game Development",
@@ -55,6 +54,7 @@ const eventDetails = {
     date: "01-02 July 2024",
     time: "10.00 AM",
     venue: "Fab Lab Trivandrum",
+    link:"https://airtable.com/app0ast9KLzNwkPSe/shrtR1wOiqPqxBwVW",
   },
   nexus_conclave: {
     title: "Nexus Conclave",
@@ -73,8 +73,8 @@ const eventDetails = {
     date: "04-05 July 2024",
     time: "10.00 AM",
     venue: "Fab Lab Trivandrum",
+    link:"https://airtable.com/app0ast9KLzNwkPSe/shrdAkr7O8Mc1liiQ",
   },
-  
 };
 
 const EventDetail = () => {
@@ -120,9 +120,7 @@ const EventDetail = () => {
             <b>ABOUT : </b>
             {event.description}
           </p>
-          <p>
-            {event.note}
-          </p>
+          <p>{event.note}</p>
 
           <ul>
             <li>DATE: {event.date}</li>
@@ -141,7 +139,6 @@ const EventDetail = () => {
               </button>
             </a>
           </div>
-       
         </div>
       </div>
 
