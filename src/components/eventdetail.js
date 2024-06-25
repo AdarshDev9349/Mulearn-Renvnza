@@ -19,7 +19,7 @@ const eventDetails = {
   product_designing: {
     title: "Product Designing",
     description:
-      "Experience an exciting Product Design Workshop at TechFest in collaboration with UX SHOTS. Explore product development and design with hands-on activities and insights from industry experts. Perfect for budding designers, tech enthusiasts, and professionals.",
+      "Experience an exciting Product Design Workshop at Renvnza in collaboration with UX SHOTS. Explore product development and design with hands-on activities and insights from industry experts. Perfect for budding designers, tech enthusiasts, and professionals.",
     image: product,
     note:" Don't miss out this opportunity and register now! Plus, free registration is available for anyone with over 10,000 karma points!",
     date: "3/07/2024",
