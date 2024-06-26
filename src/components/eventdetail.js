@@ -4,6 +4,7 @@ import image from "./img/poster.png";
 import product from "./img/product.webp";
 import pcb from "./img/pcb.webp";
 import threeD from "./img/3d.webp";
+import laser from "./img/laser.webp"
 import { Link } from "react-router-dom";
 
 const eventDetails = {
@@ -11,11 +12,12 @@ const eventDetails = {
     title: "Laser Engraving",
     description:
       "Explore a 5-hour hands-on workshop focusing on the fundamentals of 2D designing and fabrication using a laser cutter. Ideal for beginners and enthusiasts, this workshop covers both the creative and technical aspects of laser cutting technology. Whether you're a hobbyist, designer, or simply curious about digital fabrication, you'll gain practical skills in software like Inkscape and hands-on experience with laser cutting machines. By the end of the workshop, you'll have the knowledge and skills to create and fabricate your own projects using 2D design techniques.Please note, no food will be provided.",
-    image: image,
+    image: laser,
     note: "",
     date: "3/07/2024",
     time: "10.00 AM",
     venue: "Fab Lab Trivandrum",
+    link:"https://airtable.com/app0ast9KLzNwkPSe/shr2SUKsLOHNd9dqx"
   },
   product_designing: {
     title: "Product Designing",
