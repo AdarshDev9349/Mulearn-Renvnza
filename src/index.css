@@ -1531,13 +1531,62 @@ footer .contact ul{
 }
 
 .dev{
-  background-color: #0f1923;
+ background-image: url("./components//img/background.svg");
+  background-size: cover;
   height: 80vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+ align-items: center;
 }
+.dev img{
+ width: 500px;
+ padding-top: 40px;
+  
+}
+.head-dev{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-
+}
+.head-dev h1{
+  font-family: "smooch sans";
+  font-size: 100px;
+  color: #ece8e1;
+}
+.head-dev p {
+  margin-top: 14px;
+  font-size: 19px;
+  font-family: "oxanium";
+  color: #ffffff;
+  width: 604px;
+}
+.head-dev button{
+  width: 230px;
+  font-size: 18px;
+  
+}
+.head-dev .btn__inner{
+  background-color:#1e2e3d;
+}
 @media (max-width: 768px) {
-    
+    .dev img{
+      display: none;
+    }
+ 
+  .head-dev h1{
+    font-size: 70px;
+  }
+  .head-dev p{
+    text-align: justify;
+    width: auto;
+    padding: 13px;
+  }
+    .head-dev button{
+      width: auto;
+    }
 
 
   .about {
@@ -1854,6 +1903,8 @@ padding: 0;
 .dev{
   background-color: #0f1923;
   height: 70vh;
+  
+  display: flex;
 }
 
 

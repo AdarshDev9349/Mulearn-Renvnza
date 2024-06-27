@@ -14,7 +14,7 @@ import FAQ from './components/faq';
 import ScrollToBottom from './components/arrow';
 import About from './components/about';
 import Sponsor from './sponsorus';
-
+import Devexpo from './components/devexpo';
 function App() {
   const [loading, setLoading] = useState(true);
  
@@ -38,7 +38,7 @@ function App() {
                 <Navbar/>
                 <Header/>
                 <About/>
-           
+                <Devexpo/>
                 <Events />
                 <MoreEvents />
                 <FAQ/>
