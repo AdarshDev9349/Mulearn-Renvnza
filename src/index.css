@@ -441,7 +441,7 @@ header {
   bottom: 15px;
   z-index: 2;
   transform: translateX() scale(0.95);
-  background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png");
+  background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc825c6589eda7717/5eb7cdc6ee88132a6f6cfc25/V_AGENTS_587x900_Viper.png");
 }
 
 .main .event-card:nth-child(3) {
@@ -455,7 +455,7 @@ header {
   left: 0;
   top: 25px;
   z-index: 4;
-  background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc825c6589eda7717/5eb7cdc6ee88132a6f6cfc25/V_AGENTS_587x900_Viper.png");
+  background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png");
 }
 
 .main .event-card:nth-child(5) {
@@ -1530,6 +1530,12 @@ footer .contact ul{
   margin: 0;
 }
 
+.dev{
+  background-color: #0f1923;
+  height: 80vh;
+}
+
+
 @media (max-width: 768px) {
     
 
@@ -1845,7 +1851,10 @@ padding: 0;
   justify-content: center;
   color: black;
 }
-
+.dev{
+  background-color: #0f1923;
+  height: 70vh;
+}
 
 
 

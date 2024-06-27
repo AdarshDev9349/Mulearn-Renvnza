@@ -40,7 +40,7 @@ const eventDetails = {
     venue: "University College of Engineering,Kariavattom",
   },
   uiux: {
-    title: "UI/UX Workshop",
+    title: "Emotional Design Workshop",
     description:
       "Join us for an immersive UI/UX workshop to elevate your design skills with the power of emotional design!Learn how to evoke emotions through color, typography, and micro-interactions, and discover techniques for creating personalized, meaningful user experiences. This hands-on event features engaging activities, interactive lectures, and real-world case studies.Don't miss the chance to transform your design approach and create more user-centric products. Register now to secure your spot and advance your UI/UX skills! ",
     image: image,

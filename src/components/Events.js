@@ -17,7 +17,7 @@ const Events = () => {
     },
     {
       id: 'uiux',
-      title: "UI/UX Workshop",
+      title: "Emotional Deisgn Workshop",
       description: "Join us to unleash your creativity and explore the world of user experience and design in our workshop.",
       highlight: false
     },

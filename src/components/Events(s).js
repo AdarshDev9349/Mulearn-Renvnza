@@ -19,7 +19,7 @@ const SmallEvents = () => {
     },
     {
       id: 'uiux',
-      title: "UI/UX Workshop",
+      title: "Emotional Design Workshop",
       description: "Join us to unleash your creativity and explore the world of user experience and design in our workshop.",
       imageUrl:"https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png"
     },
