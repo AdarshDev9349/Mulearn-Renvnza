@@ -4,7 +4,10 @@ import image from "./img/poster.png";
 import product from "./img/product.webp";
 import pcb from "./img/pcb.webp";
 import threeD from "./img/3d.webp";
-import laser from "./img/laser.webp"
+import laser from "./img/insta_circulation_laser.webp"
+import uiux from "./img/emo.webp"
+import nexus from './img/nexus.webp'
+
 import { Link } from "react-router-dom";
 
 const eventDetails = {
@@ -43,7 +46,7 @@ const eventDetails = {
     title: "Emotional Design Workshop",
     description:
       "Join us for an immersive UI/UX workshop to elevate your design skills with the power of emotional design!Learn how to evoke emotions through color, typography, and micro-interactions, and discover techniques for creating personalized, meaningful user experiences. This hands-on event features engaging activities, interactive lectures, and real-world case studies.Don't miss the chance to transform your design approach and create more user-centric products. Register now to secure your spot and advance your UI/UX skills! ",
-    image: image,
+    image: uiux,
     date: "4/07/2024",
     time: "9.45 AM",
     venue: "University College of Engineering,Kariavattom",
@@ -63,9 +66,10 @@ const eventDetails = {
     title: "Nexus Conclave",
     description:
       "Welcome to the Nexus Conclave 2024 at RenVnza, a premier event dedicated to addressing the latest trends, challenges, and innovations in human resources. This year’s theme, Navigating the Future of Work , focuses on equipping HR professionals on various industries ,and talks by the mentors of tech communities bringing out insights how tech communities bring out a great impact on converting a campus into a dynamic and evolving workplace landscape. This conclave offers a unique opportunity to network, learn, and grow with the best in the field.",
-    image: image,
-    date: "Soon",
-    time: "Soon",
+    image: nexus,
+    date: "4/07/2024",
+    time: "1.00 Pm",
+    link:'https://airtable.com/app0ast9KLzNwkPSe/shrnR7AkpKsaGrnAm',
     venue: "University College of Engineering,Kariavattom",
   },
   pcb_designing: {
