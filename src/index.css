@@ -1662,9 +1662,10 @@ footer .contact ul{
     font-size: 70px;
   }
   .head-dev p{
-    text-align: justify;
-    width: auto;
     padding: 13px;
+  
+    width: auto;
+    align-self: baseline;
   }
     .head-dev button{
       width: auto;
