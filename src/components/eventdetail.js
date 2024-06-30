@@ -1,12 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import image from "./img/poster.png";
+
 import product from "./img/product.webp";
 import pcb from "./img/pcb.webp";
 import threeD from "./img/3d.webp";
 import laser from "./img/insta_circulation_laser.webp"
 import uiux from "./img/emo.webp"
 import nexus from './img/nexus.webp'
+import game from "./img/gamedev.webp"
 
 import { Link } from "react-router-dom";
 
@@ -37,9 +38,10 @@ const eventDetails = {
     title: "Game Development",
     description:
       "We are thrilled to announce our upcoming game development workshop in collaboration with TILTEDU, a leading institution in immersive and interactive technology education. This workshop is designed for aspiring game developers, tech enthusiasts, and anyone looking to break into the exciting world of game development.",
-    image: image,
-    date: "Soon",
-    time: "Soon",
+    image: game,
+    date: "3/07/2024",
+    time: "1.00 PM",
+    link:'https://airtable.com/app0ast9KLzNwkPSe/shrGopVoTWcblRZ1D',
     venue: "University College of Engineering,Kariavattom",
   },
   uiux: {
