@@ -4,10 +4,10 @@ import image from "./img/poster.png";
 import product from "./img/product.webp";
 import pcb from "./img/pcb.webp";
 import threeD from "./img/3d.webp";
-import laser from "./img/insta_circulation_laser.webp"
-import uiux from "./img/emo.webp"
-import nexus from './img/nexus.webp'
-
+import laser from "./img/insta_circulation_laser.webp";
+import uiux from "./img/emo.webp";
+import nexus from "./img/nexus.webp";
+import gamedev from "./img/gamedev.webp";
 import { Link } from "react-router-dom";
 
 const eventDetails = {
@@ -17,10 +17,10 @@ const eventDetails = {
       "Explore a 5-hour hands-on workshop focusing on the fundamentals of 2D designing and fabrication using a laser cutter. Ideal for beginners and enthusiasts, this workshop covers both the creative and technical aspects of laser cutting technology. Whether you're a hobbyist, designer, or simply curious about digital fabrication, you'll gain practical skills in software like Inkscape and hands-on experience with laser cutting machines. By the end of the workshop, you'll have the knowledge and skills to create and fabricate your own projects using 2D design techniques.Please note, no food will be provided.",
     image: laser,
     note: "",
-    date: "3/07/2024",
-    time: "10.00 AM",
+    date: "POSTPONED",
+    time: "POSTPONED",
     venue: "Fab Lab Trivandrum",
-    link:"https://airtable.com/app0ast9KLzNwkPSe/shr2SUKsLOHNd9dqx"
+    link: "https://airtable.com/app0ast9KLzNwkPSe/shr2SUKsLOHNd9dqx",
   },
   product_designing: {
     title: "Product Designing",
@@ -36,11 +36,12 @@ const eventDetails = {
   Gamedev: {
     title: "Game Development",
     description:
-      "We are thrilled to announce our upcoming game development workshop in collaboration with TILTEDU, a leading institution in immersive and interactive technology education. This workshop is designed for aspiring game developers, tech enthusiasts, and anyone looking to break into the exciting world of game development.",
-    image: image,
-    date: "Soon",
-    time: "Soon",
+      "We are thrilled to announce our upcoming game development session in collaboration with TILTLABS and TILTEDU. TILTEDU is a pioneering immersive tech education organization. They empower learners with hands-on, practical experiences in hybrid learning format. This session is designed for aspiring game developers, tech enthusiasts, and anyone looking to break into the exciting world of game development.",
+    image: gamedev,
+    date: "3/07/2024",
+    time: "1:00 PM",
     venue: "University College of Engineering,Kariavattom",
+    link: "https://airtable.com/app0ast9KLzNwkPSe/shrGopVoTWcblRZ1D",
   },
   uiux: {
     title: "Emotional Design Workshop",
@@ -57,10 +58,10 @@ const eventDetails = {
     description:
       "Attend an engaging 3D Printing Workshop where you'll delve into the fundamentals of this transformative technology. Day 1 introduces Fab Labs and Mini Fab Labs in our country, and covers 3D designing using software like Rhino. Day 2 offers hands-on training with industry-standard 3D printers, enabling you to bring your designs to life. Don't miss this chance to explore the exciting world of 3D printing and enhance your design capabilities! Please note, no food will be provided.",
     image: threeD,
-    date: "01-02 July 2024",
-    time: "10.00 AM",
+    date: "POSTPONED",
+    time: "POSTPONED",
     venue: "Fab Lab Trivandrum",
-    link:"https://airtable.com/app0ast9KLzNwkPSe/shrtR1wOiqPqxBwVW",
+    link: "https://airtable.com/app0ast9KLzNwkPSe/shrtR1wOiqPqxBwVW",
   },
   nexus_conclave: {
     title: "Nexus Conclave",
@@ -69,7 +70,7 @@ const eventDetails = {
     image: nexus,
     date: "4/07/2024",
     time: "1.00 Pm",
-    link:'https://airtable.com/app0ast9KLzNwkPSe/shrnR7AkpKsaGrnAm',
+    link: "https://airtable.com/app0ast9KLzNwkPSe/shrnR7AkpKsaGrnAm",
     venue: "University College of Engineering,Kariavattom",
   },
   pcb_designing: {
@@ -77,10 +78,10 @@ const eventDetails = {
     description:
       "Discover an intensive PCB Designing Workshop where you'll learn to create schematics and develop your first PCB board. This hands-on session covers essential design principles, ideation steps, and best practices for PCB development. Gain practical experience in EDA tools and understand the workflow from concept to fabrication. Perfect for beginners and those looking to refine their skills.Please note, no food will be provided.",
     image: pcb,
-    date: "04-05 July 2024",
-    time: "10.00 AM",
+    date: "POSTPONED",
+    time: "POSTPONED",
     venue: "Fab Lab Trivandrum",
-    link:"https://airtable.com/app0ast9KLzNwkPSe/shrdAkr7O8Mc1liiQ",
+    link: "https://airtable.com/app0ast9KLzNwkPSe/shrdAkr7O8Mc1liiQ",
   },
 };
 
