@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Smooch+Sans:wght@100..900&display=swap");
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -60,7 +58,7 @@ img {
   justify-content: center;
   align-items: center;
   padding: 2rem 5rem;
-  background-color: #0f1923  ;
+  background-color: #0f1923;
 }
 
 /* HAMBURGER STYLE */
@@ -174,7 +172,6 @@ header {
   }
 }
 .eventbtn {
- 
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
@@ -201,12 +198,11 @@ header {
   font-weight: bold;
   font-size: 14px;
   transition: all 0.15s ease;
-  
+
   font-family: "oxanium";
 }
 .eventbtn.second:hover {
-  
-  color: rgb(0, 0, 0); 
+  color: rgb(0, 0, 0);
 }
 .eventbtn::before,
 .eventbtn::after {
@@ -218,7 +214,6 @@ header {
   height: calc(50% - 5px);
   border: 1px solid var(--border-color);
   transition: all 0.15s ease;
-
 }
 :root {
   --background-color: #ffffff;
@@ -226,7 +221,6 @@ header {
 .eventbtn::before {
   top: 0;
   border-bottom-width: 0;
-  
 }
 
 .eventbtn::after {
@@ -520,7 +514,7 @@ header {
 /* FOOTER */
 footer {
   display: flex;
-  
+
   background-color: #0f1923;
   width: 100%;
   height: 40vh;
@@ -548,10 +542,9 @@ footer .p2 {
   font-weight: 300;
   font-size: 1.5rem;
 }
-.Social-icon{
+.Social-icon {
   display: grid;
   gap: 25px;
-
 }
 .Social-icon ul {
   display: flex;
@@ -566,19 +559,18 @@ footer .p2 {
 .Social-icon img:hover {
   transform: scale(1.2);
 }
-footer .footer-logos{
+footer .footer-logos {
   display: grid;
- 
 }
-footer .contact{
+footer .contact {
   display: grid;
   gap: 20px;
 }
-footer .contact ul{
-   text-align: justify;
-   font-size: 14px;
+footer .contact ul {
+  text-align: justify;
+  font-size: 14px;
 }
-.logo-f{
+.logo-f {
   display: flex;
   justify-content: center;
 }
@@ -1054,11 +1046,11 @@ footer .contact ul{
 
   margin-top: 20px;
 }
-.event-code li{
+.event-code li {
   padding-bottom: 10px;
 }
 
-.event-code ul{
+.event-code ul {
   margin-right: 28px;
   margin-left: 28px;
   font-size: 15px;
@@ -1149,16 +1141,14 @@ footer .contact ul{
 .faq__answer {
   max-height: 0;
   overflow: hidden;
-  transition:  max-height ease-in 0.2s;
- 
-  
+  transition: max-height ease-in 0.2s;
 }
 
 .faq__answer--active {
   display: block;
   max-height: 100px;
 }
-#faq p{
+#faq p {
   font-size: 2rem;
 }
 
@@ -1177,7 +1167,7 @@ footer .contact ul{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     margin: 20px;
   }
- 
+
   .event-info h1 {
     margin-top: 0;
     font-size: 44px;
@@ -1204,8 +1194,7 @@ footer .contact ul{
     height: 60vh;
     border-radius: 0;
     margin-top: -3px;
-    box-shadow: none
-  ;
+    box-shadow: none;
   }
   .event-code {
     border-top-right-radius: 0;
@@ -1219,13 +1208,13 @@ footer .contact ul{
     padding: 0;
     padding-bottom: 20px;
   }
-  .event-code p{
+  .event-code p {
     font-size: 13px;
   }
-  .event-code p{
+  .event-code p {
     padding: 0;
   }
-  .event-code ul{
+  .event-code ul {
     font-size: 12px;
   }
   .event-code h1 {
@@ -1254,21 +1243,20 @@ footer .contact ul{
   .countdown-container {
     padding: 20px;
   }
-  #faq p{
+  #faq p {
     font-size: 1.5rem;
   }
 }
 
 .custom-class {
   position: absolute;
-  bottom: 2.5rem; 
-  right: 49.5%; 
+  bottom: 2.5rem;
+  right: 49.5%;
   transform: translateX(50%) scale(1.25);
   cursor: pointer;
   animation: stb 1s ease-in-out infinite;
   height: 35px;
   top: 90vh;
-
 }
 /* Example animation */
 @keyframes stb {
@@ -1280,33 +1268,27 @@ footer .contact ul{
   }
 }
 
-.custom-class .space{
+.custom-class .space {
   height: 1.9rem;
   width: 1.9rem;
-  margin-bottom:-4px ;
+  margin-bottom: -4px;
 }
-.spacex{
+.spacex {
   margin-top: -5px;
-
 }
-.spacey{
+.spacey {
   margin-top: -10px;
 }
 
-
-
-
-.about h1{
+.about h1 {
   font-family: "smooch sans";
   font-size: 10rem;
   color: #000000;
-
 }
 
-.about p{
+.about p {
   font-size: 20px;
-  font-family: 'oxanium';
-
+  font-family: "oxanium";
 
   font-weight: 600;
   text-align: center;
@@ -1315,23 +1297,22 @@ footer .contact ul{
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 100vw; 
+  max-width: 100vw;
   margin: 0 auto;
-  padding: 60px; 
+  padding: 60px;
   padding-top: 0;
   font-size: 18px;
-  line-height: 1.6; 
+  line-height: 1.6;
 }
 /*why partner with us?*/
-
 
 .section-hero {
   display: flex;
   align-items: center;
   gap: 120px;
-  background:#0f1923;
-  padding:160px 120px 160px;
-  overflow:hidden;
+  background: #0f1923;
+  padding: 160px 120px 160px;
+  overflow: hidden;
   position: relative;
   width: 100%;
   height: 100%;
@@ -1344,11 +1325,10 @@ footer .contact ul{
   height: auto;
   position: absolute;
 }
-.section-hero .text{
+.section-hero .text {
   width: 50%;
   text-align: justify;
 }
-
 
 .section-hero h1 {
   font-size: 55px;
@@ -1358,21 +1338,20 @@ footer .contact ul{
 }
 
 .section-hero .span {
-
   color: #ff4655;
 }
 .section-hero.eventbtn.second:hover {
-  
-  color: rgb(0, 0, 0); 
+  color: rgb(0, 0, 0);
 }
-.section-hero .text p, .section-hero .text ul {
+.section-hero .text p,
+.section-hero .text ul {
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
   font-family: "oxanium";
   text-align: justify;
 }
-.section-hero .text p{
+.section-hero .text p {
   margin-bottom: 10px;
   line-height: 27px;
   padding-right: 140px;
@@ -1380,13 +1359,12 @@ footer .contact ul{
 
 .section-hero .text ul {
   padding-left: 20px;
-
 }
 
 .section-hero .text ul li {
   margin-bottom: 10px;
 }
-.section-hero .small-img{
+.section-hero .small-img {
   display: none;
 }
 .section-sponsorship {
@@ -1396,7 +1374,7 @@ footer .contact ul{
 .text {
   text-align: center;
   font-size: 3rem;
-  font-family: 'smooch sans';
+  font-family: "smooch sans";
 }
 
 .perks-container {
@@ -1408,24 +1386,20 @@ footer .contact ul{
 }
 
 .perk {
-
   border-radius: 8px;
- 
+
   padding: 20px;
   width: 100%;
-  
 }
 
 .titleSection {
   font-size: 5rem;
   text-align: center;
-
-
 }
 
 .investment {
   display: flex;
- 
+
   margin-bottom: 10px;
   justify-content: center;
   font-size: 2rem;
@@ -1438,15 +1412,13 @@ footer .contact ul{
 }
 
 .benefits-list {
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: repeat(3, 1fr);
-   gap:30px 0px; 
-   margin-bottom: 80px;
-   margin-top: 0;
-  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px 0px;
+  margin-bottom: 80px;
+  margin-top: 0;
 }
-
 
 .benefit-icon {
   width: 20px;
@@ -1455,62 +1427,51 @@ footer .contact ul{
 
   padding: 20px;
   text-align: center;
- 
 }
-.benefit-div{
+.benefit-div {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   font-size: 1.5rem;
-  font-family: 'oxanium';
- 
- 
+  font-family: "oxanium";
 }
 
-
-
-.benefit-div p{
+.benefit-div p {
   font-size: 1.5rem;
   text-align: center;
   padding: 0 110px;
-
 }
-.benefit-div img{
+.benefit-div img {
   width: 130px;
   height: 130px;
 }
-.benefit-div.Title:nth-child(10){
+.benefit-div.Title:nth-child(10) {
   grid-column: 2;
 }
 
-
-.benefit-div.Silver:nth-child(4){
+.benefit-div.Silver:nth-child(4) {
   grid-column: 2;
 }
-.benefits-list.Silver{
+.benefits-list.Silver {
   grid-template-rows: none;
 }
 
-
-.Count{
+.Count {
   display: grid;
-  padding:40px;
+  padding: 40px;
   gap: 30px;
-  background-color: #F8F8F8;
-  
-  
+  background-color: #f8f8f8;
 }
-.Count h1{
+.Count h1 {
   justify-self: center;
   font-size: 40px;
-  font-family: 'smooch sans';
+  font-family: "smooch sans";
 }
 .stats-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 20px;
-  
 }
 
 .stat-item {
@@ -1524,35 +1485,33 @@ footer .contact ul{
 }
 
 .stat-item p {
-  color:#ce323f;
+  color: #ce323f;
   font-size: 2em;
-  font-family: 'oxanium';
+  font-family: "oxanium";
   margin: 0;
 }
 
-.dev{
- background-image: url("./components//img/background.svg");
+.dev {
+  background-image: url("./components//img/background.svg");
   background-size: cover;
   height: 80vh;
   position: relative;
   overflow: hidden;
   display: flex;
   justify-content: space-around;
- align-items: center;
- margin-bottom: 50px;
+  align-items: center;
+  margin-bottom: 50px;
 }
-.dev img{
- width: 500px;
- padding-top: 40px;
-  
+.dev img {
+  width: 500px;
+  padding-top: 40px;
 }
-.head-dev{
+.head-dev {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
-.head-dev h1{
+.head-dev h1 {
   font-family: "smooch sans";
   font-size: 100px;
   color: #ece8e1;
@@ -1564,13 +1523,12 @@ footer .contact ul{
   color: #ffffff;
   width: 604px;
 }
-.head-dev button{
+.head-dev button {
   width: 230px;
   font-size: 18px;
-  
 }
-.head-dev .btn__inner{
-  background-color:#1e2e3d;
+.head-dev .btn__inner {
+  background-color: #1e2e3d;
 }
 /* Modal Overlay */
 .modal-overlay {
@@ -1583,28 +1541,41 @@ footer .contact ul{
   display: flex;
   align-items: center;
   justify-content: center;
- z-index: 100;
+  z-index: 100;
 }
 
 /* Modal Content */
-.modal-content {
+.modal-container {
+  height: 60vh;
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
+}
+.modal-container .eventbtn {
+  width: max-content;
+}
+.modal-container h2 {
+  font-family: "smooch sans";
+  font-size: 40px;
+}
+.modal-content {
   max-width: 1000px;
-  height: 60vh;
+  height: 30vh;
   width: 100%;
   text-align: center;
   display: flex;
   gap: 45px;
- 
 }
-.card h2{
+.card h2 {
   font-family: "smooch sans";
   font-size: 40px;
 }
-.card p{
+.card p {
   font-family: "oxanium";
   font-size: 15px;
 }
@@ -1621,84 +1592,83 @@ footer .contact ul{
 .card {
   background-color: #f9f9f9;
   padding: 15px;
-  margin: 10px 0;
   border: 1px solid #ddd;
   border-radius: 4px;
   align-self: center;
 }
 
 @media (max-width: 768px) {
-    .dev img{
-      display: none;
-    }
-    .modal-content{
-      display: flex;
-      padding: 0;
-      gap: 10px;
-    }
-   .card h2{
+  .dev img {
+    display: none;
+  }
+  .modal-container {
+    height: max-content;
+    gap: 3rem;
+  }
+  .modal-content {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+  }
+  .card h2 {
     font-size: 3rem;
-
-   }
-   .card p{
+  }
+  .card p {
     font-size: 1.2rem;
     margin-bottom: 10px;
-   }
-   .card button{
+  }
+  .card button {
     font-size: 1rem;
     padding: 6px;
-   }
-   .card{
-    height: 40vh;
+  }
+  .card {
+    height: 30vh;
     text-align: center;
     padding: 22px;
-   }
-   
-   .card .btn__inner{
-    padding: 13px 19px;
-   }
+  }
 
-  .head-dev h1{
+  .card .btn__inner {
+    padding: 13px 19px;
+  }
+
+  .head-dev h1 {
     font-size: 70px;
   }
-  .head-dev p{
+  .head-dev p {
     padding: 13px;
-  
+
     width: auto;
     align-self: baseline;
   }
-    .head-dev button{
-      width: auto;
-    }
-
+  .head-dev button {
+    width: auto;
+  }
 
   .about {
-      font-size: 16px;
-      
+    font-size: 16px;
   }
   .about h1 {
     font-size: 6rem;
   }
-  .custom-class{
-
+  .custom-class {
     right: 49%;
   }
-  .section-hero{
+  .section-hero {
     display: grid;
     justify-content: center;
     height: 80vh;
     padding: 15px;
-    
+
     align-items: flex-start;
   }
-  .section-hero .text span{
+  .section-hero .text span {
     justify-self: center;
   }
 
-  .section-hero .text{
+  .section-hero .text {
     width: auto;
   }
-  .section-hero img{
+  .section-hero img {
     display: none;
   }
   .section-hero h1 {
@@ -1708,9 +1678,8 @@ footer .contact ul{
     margin-bottom: 30px;
     display: grid;
     justify-content: center;
-
   }
-  .section-hero .text p{
+  .section-hero .text p {
     font-size: 13px;
     line-height: 1.4;
     color: #ffffff;
@@ -1720,294 +1689,261 @@ footer .contact ul{
     padding: 20px;
   }
 
-  .section-hero .btndiv{
-    
-     justify-content: center;
-     margin-top: 15px;
-
+  .section-hero .btndiv {
+    justify-content: center;
+    margin-top: 15px;
   }
-  .section-hero button{
-      font-size: 1rem;
+  .section-hero button {
+    font-size: 1rem;
   }
-  .section-hero .btn__inner{
+  .section-hero .btn__inner {
     padding: 12px 20px;
   }
-  .section-hero .small-img{
+  .section-hero .small-img {
     display: flex;
     width: 27%;
-  
   }
-  .section-hero .small-div{
+  .section-hero .small-div {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
-    margin-bottom: 10px
-
+    margin-bottom: 10px;
   }
   .section-hero .text ul {
     padding-left: 0;
-  
   }
 
+  footer .nav-logo img {
+    width: 9rem;
+  }
 
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #0f1923;
+    width: 100%;
+    height: 39vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "oxanium";
+    color: #fff;
+  }
+  footer div {
+    display: flex;
+    align-items: center;
+  }
+  footer .nav-logo {
+    padding: 0 20px 0 20px;
+  }
 
-footer .nav-logo img{
-  width: 9rem;
-}
+  footer p {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
 
+  footer .p2 {
+    letter-spacing: 0;
+    font-weight: 300;
+    font-size: 13px;
+  }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  background-color: #0f1923;
-  width: 100%;
-  height: 39vh;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-family: "oxanium";
-  color: #fff;
-}
-footer div {
-  display: flex;
-  align-items: center;
-}
-footer .nav-logo {
-  padding: 0 20px 0 20px;
-}
+  .Social-icon ul {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+  }
 
-footer p {
-  font-size: 16px;
-  letter-spacing: 1px;
-}
+  .Social-icon img {
+    width: 24px;
+    transition: all ease-in-out 0.2s;
+  }
+  .Social-icon img:hover {
+    transform: scale(1.2);
+  }
+  footer .contact {
+    display: none;
+  }
+  footer .Social-icon h1 {
+    display: none;
+  }
+  .Count {
+    display: block;
+    text-align: center;
+    background: ECE8E1;
+  }
+  .Count h1 {
+    display: flex;
 
-footer .p2 {
-  letter-spacing: 0;
-  font-weight: 300;
-  font-size: 13px;
-}
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+  }
+  .stats-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+  .stat-item {
+    font-size: 0.7rem;
+  }
+  .section-sponsorship {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    font-family: "oxanium";
+    margin: 0;
+  }
+  .benefits-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 
-.Social-icon ul {
-  display: flex;
-  width: 300px;
-  justify-content: space-around;
-}
+    margin: 30px;
+    margin-top: 0;
+    gap: 40px;
+  }
+  .benefits-list p {
+    padding: 0;
+    font-size: 1.3rem;
+  }
+  .section-sponsorship h1 {
+    font-size: 3.7rem;
+    text-align: center;
+    font-family: "smooch sans";
+    display: flex;
+    justify-content: space-around;
 
-.Social-icon img {
-  width: 24px;
-  transition: all ease-in-out 0.2s;
-}
-.Social-icon img:hover {
-  transform: scale(1.2);
-}
-footer .contact{
-  display: none;
-}
-footer .Social-icon h1{
-  display: none;
-}
-.Count{
-  display: block;
-  text-align: center;
-  background: ECE8E1;
-}
-.Count h1{
-  display: flex;
- 
-  font-size: 2.4rem;
-  margin-bottom: 20px;
-  
- 
-}
-.stats-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
-  
-}
-.stat-item{
-  font-size: 0.7rem;
-}
-.section-sponsorship {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-   color: #ffffff;
-  font-family: "oxanium";
-  margin: 0;
-  
-}
-.benefits-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  
-  margin: 30px;
-  margin-top: 0;
-  gap: 40px;
- 
-}
-.benefits-list p{
-  padding: 0;
-  font-size: 1.3rem;
-}
-.section-sponsorship h1 {
-  font-size: 3.7rem;
-  text-align: center;
-  font-family: "smooch sans";
-  display: flex;
-  justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #0f1923;
+  }
 
-  margin-top: 20px;
-  margin-bottom: 40px;
-  color: #0f1923;
-  
+  .section-sponsorship button {
+    font-size: 1rem;
+    top: 0;
+    margin-left: 0;
+  }
+  .section-sponsorship .btn__inner {
+    padding: 12px 20px;
+  }
 
-}
+  .perks-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+    width: 100%;
+  }
 
+  .perk {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
 
-.section-sponsorship button{
-  font-size: 1rem;
-  top: 0;
-  margin-left: 0;
- 
-}
-.section-sponsorship .btn__inner{
-padding: 12px 20px;
-}
+    width: auto;
+    height: fit-content;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    gap: 20px;
+  }
 
-.perks-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 20px;
-  margin-top: 20px;
-  width: 100%;
-}
+  .titleSection {
+    flex: 1;
+    color: #1f2833;
+    padding: 0;
+  }
 
+  .titleSection .title {
+    font-size: 6rem;
+    font-family: "smooch sans";
+  }
 
-.perk {
-  display: flex;
-  flex-direction:column;
-  justify-content: space-between;
-  padding: 20px;
+  .investment {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #1f2833;
+    margin-bottom: 20px;
+    font-family: "oxanium";
+  }
 
-  width: auto;
-  height:fit-content;
-  margin: 0 auto;
-  box-sizing: border-box;
-  overflow: hidden;
-  gap: 20px;
-}
+  .investmentIcon {
+    margin-right: 5px;
+  }
+  .benefit-div img {
+    width: 100px;
+    height: 100px;
+  }
 
-.titleSection {
-  flex: 1;
-  color: #1f2833;
-  padding: 0;
-  
-}
+  .list {
+    padding: 0;
+    font-size: 14px;
+    color: #1f2833;
+    font-weight: 600;
+  }
+  .list li {
+    list-style: unset;
+  }
+  .deliverablesSection {
+    background-color: #ff5e5e;
+    color: white;
+    padding: 20px;
+    position: relative;
+    width: 245px;
+    height: 125px;
+    top: 20px;
+    right: -50px;
+  }
 
-.titleSection .title {
-  font-size: 6rem;
-  font-family: 'smooch sans';
-}
+  .deliverablesTitle {
+    font-size: 1.4rem;
+    margin: 0 0 5px 0;
+  }
 
-.investment {
-  display: flex;
-  align-items: center;
-  font-size: 1.8rem;
-  font-weight: 800;
-  color:#1f2833;
-  margin-bottom: 20px;
-  font-family: 'oxanium';
-}
+  .deliverablesList {
+    padding-left: 10px;
+    font-size: 1.2rem;
+    position: relative;
+    z-index: 33;
+  }
+  .deliverablesList li {
+    list-style: unset;
+  }
+  .gunImage {
+    position: absolute;
+    right: -3px;
+    top: 12%;
+    transform: translateY(-50%);
+    width: 200px;
+  }
 
-.investmentIcon {
-  margin-right: 5px;
-}
-.benefit-div img {
-  width: 100px;
-  height: 100px;
-}
+  .section-sponsorship .btndiv {
+    justify-content: center;
+    color: black;
+  }
+  .dev {
+    background-color: #0f1923;
+    height: 70vh;
 
-
-.list {
- 
-padding: 0;
-  font-size: 14px;
-  color: #1f2833;
-  font-weight: 600;
-}
-.list li{
-  list-style: unset;
-}
-.deliverablesSection {
-  background-color: #FF5E5E;
-  color: white;
-  padding: 20px;
-  position: relative;
-  width: 245px;
-  height: 125px;
-  top: 20px;
-  right: -50px;
-  
-}
-
-.deliverablesTitle {
-  font-size: 1.4rem;
-  margin: 0 0 5px 0;
-}
-
-.deliverablesList {
-  
-  padding-left: 10px;
-  font-size: 1.2rem;
-  position: relative;
-  z-index: 33;
-}
-.deliverablesList li{
-  list-style: unset;
-}
-.gunImage {
-  position: absolute;
-  right: -3px;
-  top: 12%;
-  transform: translateY(-50%);
-  width: 200px;
-}
-
-.section-sponsorship
-.btndiv {
-  
-  justify-content: center;
-  color: black;
-}
-.dev{
-  background-color: #0f1923;
-  height: 70vh;
-  
-  display: flex;
-}
-
-
-
+    display: flex;
+  }
 }
 
 @media (max-width: 480px) {
-
   .about {
-      font-size: 14px;
-      padding: 20px;
-      padding-top: 0;
-      padding-bottom: 40px;
+    font-size: 14px;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 40px;
   }
-  .about p{
+  .about p {
     font-size: 14px;
     text-align: justify;
-
   }
-
-
-
 }

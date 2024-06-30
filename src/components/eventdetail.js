@@ -4,10 +4,10 @@ import image from "./img/poster.png";
 import product from "./img/product.webp";
 import pcb from "./img/pcb.webp";
 import threeD from "./img/3d.webp";
-import laser from "./img/insta_circulation_laser.webp"
-import uiux from "./img/emo.webp"
-import nexus from './img/nexus.webp'
-
+import laser from "./img/insta_circulation_laser.webp";
+import uiux from "./img/emo.webp";
+import nexus from "./img/nexus.webp";
+import gamedev from "./img/gamedev.webp";
 import { Link } from "react-router-dom";
 
 const eventDetails = {
@@ -20,7 +20,7 @@ const eventDetails = {
     date: "3/07/2024",
     time: "10.00 AM",
     venue: "Fab Lab Trivandrum",
-    link:"https://airtable.com/app0ast9KLzNwkPSe/shr2SUKsLOHNd9dqx"
+    link: "https://airtable.com/app0ast9KLzNwkPSe/shr2SUKsLOHNd9dqx",
   },
   product_designing: {
     title: "Product Designing",
@@ -36,11 +36,12 @@ const eventDetails = {
   Gamedev: {
     title: "Game Development",
     description:
-      "We are thrilled to announce our upcoming game development workshop in collaboration with TILTEDU, a leading institution in immersive and interactive technology education. This workshop is designed for aspiring game developers, tech enthusiasts, and anyone looking to break into the exciting world of game development.",
-    image: image,
-    date: "Soon",
-    time: "Soon",
+      "We are thrilled to announce our upcoming game development session in collaboration with TILTLABS and TILTEDU. TILTEDU is a pioneering immersive tech education organization. They empower learners with hands-on, practical experiences in hybrid learning format. This session is designed for aspiring game developers, tech enthusiasts, and anyone looking to break into the exciting world of game development.",
+    image: gamedev,
+    date: "3/07/2024",
+    time: "1:00 PM",
     venue: "University College of Engineering,Kariavattom",
+    link: "https://airtable.com/app0ast9KLzNwkPSe/shrGopVoTWcblRZ1D",
   },
   uiux: {
     title: "Emotional Design Workshop",
@@ -60,7 +61,7 @@ const eventDetails = {
     date: "01-02 July 2024",
     time: "10.00 AM",
     venue: "Fab Lab Trivandrum",
-    link:"https://airtable.com/app0ast9KLzNwkPSe/shrtR1wOiqPqxBwVW",
+    link: "https://airtable.com/app0ast9KLzNwkPSe/shrtR1wOiqPqxBwVW",
   },
   nexus_conclave: {
     title: "Nexus Conclave",
@@ -69,7 +70,7 @@ const eventDetails = {
     image: nexus,
     date: "4/07/2024",
     time: "1.00 Pm",
-    link:'https://airtable.com/app0ast9KLzNwkPSe/shrnR7AkpKsaGrnAm',
+    link: "https://airtable.com/app0ast9KLzNwkPSe/shrnR7AkpKsaGrnAm",
     venue: "University College of Engineering,Kariavattom",
   },
   pcb_designing: {
@@ -80,7 +81,7 @@ const eventDetails = {
     date: "04-05 July 2024",
     time: "10.00 AM",
     venue: "Fab Lab Trivandrum",
-    link:"https://airtable.com/app0ast9KLzNwkPSe/shrdAkr7O8Mc1liiQ",
+    link: "https://airtable.com/app0ast9KLzNwkPSe/shrdAkr7O8Mc1liiQ",
   },
 };
 
