@@ -57,12 +57,12 @@ const Devexpo = () => {
                                     <h2>Mentors</h2>
                                     <img src='' alt="" />
                                     <p>Share your expertise and guide the next generation of tech enthusiasts. Sign up to be a mentor at our expo.</p>
-                                    <button className="eventbtn second" style={{ top: '0', marginTop: '16px' }} onClick={handleOpenModal}>
+                                  <a href="https://airtable.com/app0ast9KLzNwkPSe/shreDIwSBhg5sFXND"> <button className="eventbtn second" style={{ top: '0', marginTop: '16px' }} onClick={handleOpenModal}>
                                         <span className="btn__inner">
                                             <span className="btn__slide"></span>
                                             <span className="btn__content">Register Now</span>
                                         </span>
-                                    </button>
+                                    </button></a> 
                                 </motion.div>
 
                                 <motion.div 
@@ -74,12 +74,13 @@ const Devexpo = () => {
                                     <h2>Projects</h2>
                                     <img src='' alt="" />
                                     <p>Showcase your innovative projects to a wide audience. Gain feedback and recognition for your work.</p>
+                                    <a href="https://airtable.com/app0ast9KLzNwkPSe/shreDIwSBhg5sFXND">
                                     <button className="eventbtn second" style={{ top: '0', marginTop: '16px' }} onClick={handleOpenModal}>
                                         <span className="btn__inner">
                                             <span className="btn__slide"></span>
                                             <span className="btn__content">Register Now</span>
                                         </span>
-                                    </button>
+                                    </button></a>
                                 </motion.div>
                 
                         </motion.div>
