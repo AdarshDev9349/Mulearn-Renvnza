@@ -1635,6 +1635,7 @@ footer .contact ul{
       display: flex;
       padding: 0;
       gap: 10px;
+      width: 100vw;
     }
    .card h2{
     font-size: 3rem;
