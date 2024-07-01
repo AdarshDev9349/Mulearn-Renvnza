@@ -15,6 +15,10 @@ import ScrollToBottom from './components/arrow';
 import About from './components/about';
 import Sponsor from './sponsorus';
 import Devexpo from './components/devexpo';
+import titlab from './components/img/TILTLABS_LOGO-06.png'
+import uxshot from './components/img/uxshotsnew.png'
+import tiltedu from './components/img/TILTEDU_LOGO-06.png'
+import foss from './components/img/foss.png'
 function App() {
   const [loading, setLoading] = useState(true);
  
@@ -41,6 +45,16 @@ function App() {
                 <Devexpo/>
                 <Events />
                 <MoreEvents />
+                <div className="partners">
+                  <h1>Our Partners</h1>
+                  <div className="logo-part">
+                    <img src={uxshot}lt="" />
+                    <img src={foss} alt="" />
+                    <img src={tiltedu} alt="" />
+                    <img src={titlab} alt="" />
+                    
+                  </div>
+                </div>
                 <FAQ/>
                 <Footer />
                 <ScrollToBottom/>

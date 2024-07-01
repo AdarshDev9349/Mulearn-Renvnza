@@ -1162,7 +1162,43 @@ footer .contact ul{
   font-size: 2rem;
 }
 
+.partners h1{
+  font-family: "smooch sans";
+  font-size: 9rem;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.partners .logo-part{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  margin-bottom: 80px;
+}
+.partners img {
+  width: 200px;
+  align-self: center;
+  justify-self: center;
+}
+
 @media all and (max-width: 750px) {
+
+  .partners h1{
+    font-size: 5rem;
+   
+  }
+  .partners img{
+    width: 120px;
+  }
+  .partners .logo-part{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+
+
   .event-detail {
     display: block;
     width: auto;
