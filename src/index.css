@@ -1177,9 +1177,15 @@ footer .contact ul{
   margin-bottom: 80px;
 }
 .partners img {
-  width: 200px;
+  width: 180px;
   align-self: center;
   justify-self: center;
+  transition: all ease-in-out 0.2s;
+}
+
+
+.partners img:hover {
+  transform: scale(1.2);
 }
 
 @media all and (max-width: 750px) {
