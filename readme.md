@@ -1,7 +1,6 @@
 # MuLearn Renvnza 2024 Website
 
 **Live URL:** [mulearn.renvnza.in](https://mulearn.renvnza.in)  
-**GitHub Repo:** [github.com/AdarshDev9349/Mulearn-Renvnza](https://github.com/AdarshDev9349/Mulearn-Renvnza)
 
 This is the official website for **MuLearn Renvnza 2024**, built with **React.js**. It highlights the various events, partners, and interactive elements for an exciting tech and innovation experience.
 
